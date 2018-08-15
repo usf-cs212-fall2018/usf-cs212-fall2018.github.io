@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }}</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-TXfwrfuHVznxCssTxWoPZjhcss/hp38gEOH8UPZG/JcXonvBQ6SlsIF49wUzsGno" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ "style/cs212.css" | relative_link }}">
+</head>
+
+<!-- body -->
+<body>
+
+<!-- header-->
+{% include header.html %}
+
+<section class="section">
+<div class="container">
+<div class="content">
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+</div>
+</div>
+</section>
+
+<!-- footer -->
+{% include footer.html %}
+
+<!-- end -->
+</body>
+</html>

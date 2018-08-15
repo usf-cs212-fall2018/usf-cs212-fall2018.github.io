@@ -1,0 +1,517 @@
+---
+title: Syllabus
+navbar: Syllabus
+layout: default
+---
+
+<div class="columns">
+  <div class="column">
+    <p>This syllabus is similar to a contract between students and the instructor, and as such it is quite long (with many sections required by the university). A few key points from this syllabus are highlighted here:</p>
+
+    <ul>
+      <li>Use <a href="{{ site.data.course.piazza }}">Piazza</a> for all course communication. (See: <a href="#{{ "Email Policy" | slugify }}">Email Policy</a>)
+
+      <li>You should be stuck for an hour on a problem before seeking help, but you should definitely seek help if you have been stuck for an hour. (See: <a href="#{{ "Getting Help" | slugify }}">Getting Help</a>)
+
+      <li>Do not cheat. This includes working too closely with your classmates or the CS tutors.
+      (See: <a href="#{{ "Cheating Policy" | slugify }}">Cheating Policy</a>)
+
+      <li>You must pass at least one exam to avoid an automatic F in this class.
+      (See: <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a>)
+
+      <li>You must make enough progress on projects to avoid an automatic F in this class.
+      (See: <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a>)
+
+      <li>Treat this class like a part-time job and plan to spend 10 to 20 hours coding per week outside of class.
+      (See: <a href="#{{ "Credit Hour Policy" | slugify }}">Credit Hour Policy</a>)
+    </ul>
+
+    <p>Students are still required to read through the entire syllabus below.</p>
+  </div>
+
+  <div class="column is-narrow">
+    <div class="box">
+      <strong>Table of Contents</strong>
+
+      <p>
+        <a href="#{{ "Basic Information" | slugify }}">Basic Information</a><br/>
+        <a href="#{{ "Course Requirements" | slugify }}">Course Requirements</a><br/>
+        <a href="#{{ "Course Policies" | slugify }}">Course Policies</a><br/>
+        <a href="#{{ "University Policies" | slugify }}">University Policies</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+{% include section.html level="h2" name="Basic Information" %}
+
+<p>This section covers basic information about the course, instructor, and teacher assistants.</p>
+
+<h3 class="title">{{ site.data.course.code }} {{ site.data.course.name }}</h3>
+<h4 class="subtitle has-text-weight-light">{{ site.data.course.term }} &bull; {{ site.data.course.units }} Credits</h4>
+
+This course gives students experience with advanced programming topics, including inheritance and polymorphism, multi-threaded programming, networking, database programming, and web development. Students will also learn techniques for designing, debugging, refactoring, and reviewing code.
+
+{% include section.html level="h3" name="Lectures" %}
+
+<p>There are two sections of {{ site.data.course.code }}. The class times are:</p>
+
+<div class="columns">
+  <div class="column is-narrow">
+    <strong>CS 212-01</strong><br/>
+    <i class="fas fa-fw fa-calendar-alt"></i> Tuesdays, Thursdays<br/>
+    <i class="fas fa-fw fa-clock"></i> 12:45pm &ndash; 2:30pm<br/>
+    <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo">Lo Schiavo Science</a> 307
+  </div>
+
+  <div class="column is-narrow">
+    <strong>CS 212-02</strong><br/>
+    <i class="fas fa-fw fa-calendar-alt"></i> Tuesdays, Thursdays<br/>
+    <i class="fas fa-fw fa-clock"></i> 4:35pm &ndash; 6:20pm<br/>
+    <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo">Lo Schiavo Science</a> 307
+  </div>
+</div>
+
+<p>Class time will consist of traditional lectures, live coding sessions, quizzes, discussions, guest speakers, and more.</p>
+
+{% include section.html level="h3" name="Labs" %}
+
+<p>Students must plan to attend one lab session per week. With instructor permission, students may attend a lab session not associated with their section. Each lab has a maximum capacity of 15 students. The lab sessions are:</p>
+
+<div class="columns">
+  <div class="column is-narrow">
+    <strong>CS 212-01 Lab 1</strong><br/>
+    <i class="fas fa-fw fa-fw fa-calendar-alt"></i> Tuesdays<br/>
+    <i class="fas fa-fw fa-clock"></i> 10:30am &ndash; 11:35am<br/>
+    <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 411
+  </div>
+
+  <div class="column is-narrow">
+    <strong>CS 212-01 Lab 2</strong><br/>
+    <i class="fas fa-fw fa-calendar-alt"></i> Wednesdays<br/>
+    <i class="fas fa-fw fa-clock"></i> 10:30am &ndash; 11:35am<br/>
+    <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 411
+  </div>
+
+  <div class="column is-narrow">
+    <strong>CS 212-02 Lab 1</strong><br/>
+    <i class="fas fa-calendar-alt"></i> Thursdays<br/>
+    <i class="fas fa-clock"></i> 10:30am &ndash; 11:35am<br/>
+    <i class="fas fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 411
+  </div>
+
+  <div class="column is-narrow">
+    <strong>CS 212-02 Lab 2</strong><br/>
+    <i class="fas fa-calendar-alt"></i> Fridays<br/>
+    <i class="fas fa-clock"></i> 10:30am &ndash; 11:35am<br/>
+    <i class="fas fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 411
+  </div>
+</div>
+
+<p>Teacher assistants will be available during each lab session to assist with lab exercises. Students will also be able to use the lab session to meet one-on-one with the instructor for code reviews.</p>
+
+{% include section.html level="h3" name="Instructor" %}
+
+<p>The course instructor and office hours will be as follows:</p>
+
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="box">
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-64x64">
+            <img class="is-rounded" src="{{ "images/engle.png" | relative_link }}">
+          </div>
+        </div>
+        <div class="column">
+          <strong>Sophie Engle</strong><br/>
+          <i class="fas fa-fw fa-calendar-alt"></i> Wednesdays, Thursdays<br/>
+          <i class="fas fa-fw fa-clock"></i> 2:45pm &ndash; 4:15pm<br/>
+          <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 412B
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article class="message is-info">
+  <div class="message-body">
+    <i class="fas fa-envelope"></i>&nbsp;See the <a href="#{{ "Email Policy" | slugify }}">Email Policy</a> for how to contact the instructor and teacher assistants.
+  </div>
+</article>
+
+{% include section.html level="h3" name="Teacher Assistants" %}
+
+<p>There will be three teacher assistants assisting with both sections of this course. They are:</p>
+
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="box">
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-64x64">
+            <img class="is-rounded" src="https://bulma.io/images/placeholders/64x64.png">
+          </div>
+        </div>
+        <div class="column">
+          <strong>Simon Lu</strong><br/>
+          <i class="fas fa-fw fa-calendar-alt"></i> <em>Pending</em><br/>
+          <i class="fas fa-fw fa-clock"></i> <em>Pending</em><br/>
+          <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 411
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-narrow">
+    <div class="box">
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-64x64">
+            <img class="is-rounded" src="https://bulma.io/images/placeholders/64x64.png">
+          </div>
+        </div>
+        <div class="column">
+          <strong>Olivia Kumar</strong><br/>
+          <i class="fas fa-fw fa-calendar-alt"></i> <em>Pending</em><br/>
+          <i class="fas fa-fw fa-clock"></i> <em>Pending</em><br/>
+          <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 411
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-narrow">
+    <div class="box">
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow image">
+          <img class="is-rounded" src="https://bulma.io/images/placeholders/64x64.png">
+        </div>
+        <div class="column">
+          <strong>Pedram Namiranian</strong><br/>
+          <i class="fas fa-fw fa-calendar-alt"></i> <em>Pending</em><br/>
+          <i class="fas fa-fw fa-clock"></i> <em>Pending</em><br/>
+          <i class="fas fa-fw fa-map-marker-alt"></i> <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science</a> 411
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article class="message is-info">
+  <div class="message-body">
+    <i class="fas fa-envelope"></i>&nbsp;See the <a href="#{{ "Email Policy" | slugify }}">Email Policy</a> for how to contact the instructor and teacher assistants.
+  </div>
+</article>
+
+{% include section.html level="h3" name="Prerequisites" %}
+
+<p>Students must have completed <a href="https://www.usfca.edu/catalog/course/112-introduction-computer-science-ii">CS 112 Introduction to Computer Science II</a> with a grade of C or better before taking this class.</p>
+
+<article class="message is-danger">
+  <div class="message-body">
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;Students may not take CS 112 and CS 212 concurrently.
+  </div>
+</article>
+
+{% include section.html level="h3" name="Learning Outcomes" %}
+
+<p>At the end of this course, students should be able to:</p>
+
+<ul>
+  <li>Independently design programs
+  <li>Produce professional-quality code
+  <li>Implement large programs with 1,000 to 2,000 lines of code
+  <li>Design and execute tests to identify software bugs
+  <li>Repair software bugs, redesigning and refactoring code when necessary
+  <li>Utilize, analyze, and critique code written by others
+</ul>
+
+<p>Assessment of these outcomes will be done by a combination of quizzes, exams, homework, projects, and code review. See <a href="#{{ "Course Requirements" | slugify }}">Course Requirements</a> below for details.</p>
+
+{% include section.html level="h3" name="Required Materials" %}
+
+<p>This course utilizies freely available resources and software. There are no required books.</p>
+
+<p>However, students need to have a laptop or tablet capable of loading <a href="{{ site.data.course.canvas }}">Canvas</a>, <a href="{{ site.data.course.piazza }}">Piazza</a>, and <a href="{{ site.data.course.github }}">GitHub</a> in a browser for in-class exercises, and a system capable of running the latest versions of <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Java</a> and <a href="https://www.eclipse.org/downloads/packages/">Eclipse</a> to complete lab, homework, and project assignments.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-laptop-code"></i>&nbsp;If you have concerns about the laptop/system requirements for this course, please reach out to the instructor. We may be able to help.
+  </div>
+</article>
+
+{% include section.html level="h3" name="Important Dates" %}
+
+<p>The following are fixed important dates and deadlines for the course, including scheduled exams:</p>
+
+<table class="table is-hoverable" style="width: auto;">
+  <tbody>
+    <tr>
+      <td nowrap class="tt">Tue 08/21</td>
+      <td>
+        <i class="fas fa-fw fa-chalkboard-teacher"></i>
+        Lectures Begin<br/>
+        <small class="has-text-grey">Note: Lab sessions will start during the second week of class.</small>
+      </td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Mon 08/27</td>
+      <td><i class="fas fa-fw fa-calendar-plus"></i> Last Day to Add Class</td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Fri 09/07</td>
+      <td>
+        <i class="fas fa-fw fa-calendar-minus"></i>
+        Last Day to Drop Class<br/>
+        <small class="has-text-grey">This is the last day you can drop the class with 100% refund and avoid a W on your transcript. See the <a href="https://myusf.usfca.edu/registration/fall-registration-calendar">Registration Calendar</a> for details.</small>
+      </td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Tue 10/02</td>
+      <td><i class="fas fa-fw fa-tasks has-text-danger"></i> Exam 1 (Retake on 10/04)</td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Tue 10/16</td>
+      <td><i class="fas fa-fw fa-umbrella-beach"></i> Fall Break (No Class)</td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Tue 10/23 &ndash;<br/>Thu 10/25</td>
+      <td>
+        <i class="fas fa-fw fa-user-astronaut"></i>
+        Guest Speakers<br/>
+        <small class="has-text-grey">The instructor will traveling to attend the IEEE VIS academic conference. Instead, there will be a series of guest speakers and guest lectures during this time. Attendance is mandatory.</small>
+      </td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Thu 11/01</td>
+      <td><i class="fas fa-fw fa-flag has-text-danger"></i> Project Cutoff<br/><small class="has-text-grey">This is the last day students can pass a code review for project 2 and satisfy the pass requirements. See the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> section for details.</small></td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Fri 11/02</td>
+      <td><i class="fas fa-fw fa-calendar-minus"></i> Withdraw Deadline<br/><small class="has-text-grey">This is the last day students can withdraw and receive a W on their transcript. See the <a href="https://myusf.usfca.edu/registration/fall-registration-calendar">Registration Calendar</a> for details.</small></td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Thu 11/22</td>
+      <td><i class="fas fa-fw fa-utensils"></i> Thanksgiving Break (No Class)</td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Tue 11/27</td>
+      <td><i class="fas fa-fw fa-tasks has-text-danger"></i> Exam 2 (Retake on 11/29)</td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Tue 12/04</td>
+      <td>
+        <i class="fas fa-fw fa-chalkboard-teacher"></i>
+        Lectures End
+      </td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">Wed 12/05</td>
+      <td>
+        <i class="fas fa-fw fa-flag has-text-danger"></i>
+        Review Cutoff<br/>
+        <small class="has-text-grey">This is the last day students can pass a normal code review before finals week begins. See the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> section for details.</small>
+      </td>
+    </tr>
+
+    <tr>
+      <td nowrap class="tt">
+        Mon 12/10 &ndash;<br/>
+        Thu 12/13
+      </td>
+      <td>
+        <i class="fas fa-fw fa-laptop-code has-text-danger"></i>
+        Final Code Reviews<br/>
+        <small class="has-text-grey">Instead of a final exam, final code reviews will be conducted during finals week. Students should consult with the instructor before planning any travel during finals week.</small>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<p>See the <a href="{{ "schedule.html" | relative_link }}">Schedule</a> for the latest weekly schedule.</p>
+
+<hr>
+
+{% include section.html level="h2" name="Course Requirements" %}
+
+<p>This section covers how the learning outcomes for this course will be assessed. This course will be a hybrid flipped classroom, with an emphasis on mastery learning. The majority of the grade will be derived from projects and exams. See the following subsections for details.</p>
+
+{% include section.html level="h3" name="Grade Breakdown" %}
+
+Pending
+
+{% include section.html level="h3" name="Grading Scale" %}
+
+Pending
+
+{% include section.html level="h3" name="Pass Requirements" %}
+
+Pending
+
+<hr>
+
+{% include section.html level="h2" name="Course Policies" %}
+
+<p>This section includes miscellaneous policies specific to this course, including email, attendance, credit hours, cheating, and more. These policies are <em>in addition</em> to the standard USF policies included later.</p>
+
+{% include section.html level="h3" name="Email Policy" %}
+
+<p>All course-related communication will be handled using <a href="{{ site.data.course.piazza }}">Piazza</a>&mdash;a FERPA-compliant Q&amp;A platform that supports public, anonymous, and private posts. When making posts on Piazza, please keep the following in mind:</p>
+
+<ul>
+  <li>
+    <p>Make a <strong>public post</strong> when appropriate. This lets us answer questions once for all students. You can <strong>post anonymously</strong> if you are uncomfortable with attaching your name to a post or a response. When posting anonymously, your classmates will not be able to see your identity, but instructors will still be able to see your name (necessary to give you credit for participation and ensure everyone is following the code of conduct).</p>
+
+    <p><article class="message is-warning">
+      <div class="message-body">
+        <i class="fas fa-eye-slash"></i>&nbsp;If you make a private post that should be public, you will be asked to create a new public anonymous post before receiving an answer.
+      </div>
+    </article></p>
+  </li>
+
+  <li>
+    <p>Do not post code on Piazza. If you have a question regarding your specific code, please commit and push your code to your GitHub repository and post a link. That ensures only those with access to your repository (instructor and teacher assistants) will see your code.</p>
+
+    <p><article class="message is-info">
+      <div class="message-body">
+        <i class="fas fa-code"></i>&nbsp;Small code snippets (under 5 lines) are okay as long as they are not revealing a homework, quiz, or project solution. For example, it is okay to post a small snippet from lecture and ask for clarification. It is not okay to publicly post the exact 1 line regular expression code needed to answer a quiz question.
+      </div>
+    </article></p>
+
+  </li>
+
+  <li><p>Make posts regarding grades or specific solutions <strong>private</strong> to the instructor and teacher assistants. When making private posts, they should always be marked as visible by both the instructor and teacher assistants so there is no confusion.</p></li>
+</ul>
+
+<p>Too shy to ask or answer questions in class? No problem! Posting a public question or responding to a question on Piazza counts towards class participation.</p>
+
+<article class="message is-danger">
+  <div class="message-body">
+    <i class="fas fa-envelope"></i>&nbsp;Any emails sent directly to the instructor or teacher assistants will redirected to Piazza before being answered.
+  </div>
+</article>
+
+{% include section.html level="h3" name="Attendance Policy" %}
+
+<p>Students are expected to be on-time to all classes to minimize disruption. Attendance is mandatory for all exams, quizzes, guest speakers, and in-class exercises. Exam dates will be posted on the course schedule.</p>
+
+<p>Attendance is mandatory for all one-on-one code review appointments. Students must be on-time to these appointments. If a student arrives more than 5 minutes late, the appointment will be canceled. Students risk a grade penalty for repeated canceled or missed appointments.</p>
+
+{% include section.html level="h3" name="Credit Hour Policy" %}
+
+<p>All courses at the University of San Francisco must comply with the <a href="https://myusf.usfca.edu/sites/default/files/usf_credit_hour_policy_0.pdf">Credit Hour Policy</a>, which states:
+
+<blockquote>
+<i class="fas fa-quote-left fa-sm"></i> One unit of credit in lecture, seminar, and discussion work should approximate one hour of direct faculty instruction and a minimum of two hours of out-of-class student work per week through one 15-week semester. <i class="fas fa-quote-right fa-sm"></i>
+</blockquote>
+
+<p>As this is a 4 credit course, students must spend a <strong>minimum</strong> of 8 hours of out-of-class work per week to earn a passing (D&ndash; or higher) letter grade. To earn a C or higher letter grade (as required for the CS major), students should expect to spend closer to <strong>10 to 20 hours per week</strong> on projects, homework, and participation assignments.</p>
+
+<article class="message is-info">
+  <div class="message-body">
+    <i class="fas fa-briefcase"></i>&nbsp;Think of this class like a part-time job. If you do not put in the time, you will not make it to the final project. Many students do not pass due to poor time management!
+  </div>
+</article>
+
+{% include section.html level="h3" name="Cheating Policy" %}
+
+<p>All students are expected to know and adhere to the University's Honor Code (<a href="#{{ "Academic Integrity" | slugify }}">see below</a>). In short, students must never represent another person's work as their own. Examples of honor code violations include (but are not limited to):</p>
+
+<ul>
+  <li>Copying and pasting code (especially without attribution) from the web
+  <li>Copying from another student (past or current)
+  <li>Having anyone other than yourself complete your work (including tutors)
+  <li>Working too closely with others such that your code no longer represents an individual contribution
+  <li>Sharing your solutions with others (either directly or indirectly)
+</ul>
+
+<p><strong class="has-text-danger">Flagrant or repeat violations of the honor code will result in an F in the course, <a href="https://myusf.usfca.edu/academic-integrity/review-process">a report to the Academic Integrity Committee (AIC)</a>, and a report to the Dean.</strong> At the discretion of the instructor, a less severe penalty may be imposed for minor or first offenses. This is at the sole discretion of the instructor and any violation may result in an F in the course.</p>
+
+<p>There are other less tangible consequences as well. Most CS professors do not write letters of recommendation for students caught cheating (making it more challenging to get into graduate school or be competitive on the job market). Even if you are not caught cheating, it is unlikely you will do well in future exams, one-on-one code reviews, or technical interviews.</p>
+
+<article class="message is-danger">
+  <div class="message-body">
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;Unauthorized collaboration or discussion that results in the same or very similar code indicates that you have not placed enough independent work into your submission and is a violation of the honor code.
+  </div>
+</article>
+
+{% include section.html level="h3" name="Policy Exceptions" %}
+
+<p>Exceptions to most course policies are made only in the case of verifiable exceptional circumstances. This includes medical emergencies, mental health and well-being crises, or family-related emergencies. Extensions must be arranged prior to the original deadline unless in case of extreme emergency (such as an emergency room visit).</p>
+
+<article class="message is-info">
+  <div class="message-body">
+    <i class="fas fa-plane-departure"></i>&nbsp;Have travel plans for a family event (such as a wedding or graduation) or academic/professional conference (such as Grace Hopper or an internship interview)? Contact the instructor ahead of time to make arrangements. Keep in mind you will likely be asked to submit assignments early versus getting an extension. Please note exceptions will not be made for other events (such as concerts, comic cons, and so on).
+  </div>
+</article>
+
+{% include section.html level="h3" name="Getting Help" %}
+
+Pending
+
+<hr>
+
+{% include section.html level="h2" name="University Policies" %}
+
+<p>This section includes standard statements on University policies and resources, including disclaimers on confidentiality, mandatory reporting, sexual assault; statements regarding USF's Honor Code and Academic Integrity and behavioral expectations; important campus resources for student health, safety, and wellbeing.</p>
+
+{% include section.html level="h3" name="Students with Disabilities" %}
+
+<p>If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact USF Student Disability Services (SDS) at (415) 422-2613 within the first week of class, or immediately upon onset of disability, to speak with a disability specialist. If you are determined eligible for reasonable accommodations, please meet with your disability specialist so they can arrange to have your accommodation letter sent to me, and we will discuss your needs for this course. For more information, visit <a href="http://www.usfca.edu/sds">http://www.usfca.edu/sds</a>.</p>
+
+{% include section.html level="h3" name="Behavioral Expectations" %}
+
+<p>All students are expected to behave in accordance with the Student Conduct Code and other University policies (see <a href="http://www.usfca.edu/fogcutter/">http://www.usfca.edu/fogcutter/</a>). Students whose behavior is disruptive or who fail to comply with the instructor may be dismissed from the class for the remainder of the class period and may need to meet with the instructor or Dean prior to returning to the next class period. If necessary, referrals may also be made to the Student Conduct process for violations of the Student Conduct Code.</p>
+
+{% include section.html level="h3" name="Academic Integrity" %}
+
+<p>As a Jesuit institution committed to <em>cura personalis</em>&mdash;the care and education of the whole person&mdash;USF has an obligation to embody and foster the values of honesty and integrity. USF upholds the standards of honesty and integrity from all members of the academic community. All students are expected to know and adhere to the University's Honor Code. You can find the full text of the code online at <a href="http://myusf.usfca.edu/academic-integrity/">http://myusf.usfca.edu/academic-integrity/</a>. The policy covers:</p>
+
+<ul>
+  <li><p>Plagiarism &ndash; intentionally or unintentionally representing the words or ideas of another person as your own; failure to properly cite references; manufacturing references.</p></li>
+
+  <li><p>Working with another person when independent work is required.</p></li>
+
+  <li><p>Submission of the same paper in more than one course without the specific permission of each instructor.</p></li>
+
+  <li><p>Submitting a paper written by another person or obtained from the Internet.</p></li>
+</ul>
+
+<article class="message is-danger">
+  <div class="message-body">
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;See the class-specific policy on academic integrity for additional cheating examples and the consequences for violating this policy.
+  </div>
+</article>
+
+{% include section.html level="h3" name="Counseling and Psychological Services (CAPS)" %}
+
+<p>CAPS’ diverse staff offers brief individual, couple, and group counseling to student members of our community. CAPS services are confidential and free of charge. Call (415) 422-6352 for an initial consultation appointment. Telephone consultation through CAPS After Hours is available Monday &ndash; Friday from 5:00 p.m. to 8:30 a.m., 24 hours during weekends and holidays; call the above number and press 2. Further information can be found at <a href="https://myusf.usfca.edu/student-health-safety/caps">https://myusf.usfca.edu/student-health-safety/caps</a>.<p>
+
+{% include section.html level="h3" name="Confidentiality, Mandatory Reporting, and Sexual Assault" %}
+
+<p>As instructors, one of our responsibilities is to help create a safe learning environment on our campus. We also have a mandatory reporting responsibility related to our role as faculty. We are required to share information regarding sexual misconduct or information about a crime that may have occurred on USF’s campus with the University. Here are some useful resources related to sexual misconduct:</p>
+
+<ul>
+  <li><p>To report any sexual misconduct, students may visit the Title IX coordinator (UC 5th floor) or see many other options by visiting <a href="//usfca.edu/student_life/safer">usfca.edu/student_life/safer</a>.</p></li>
+
+  <li><p>Students may speak to someone confidentially or report a sexual assault confidentially by contacting Counseling and Psychological Services at (415) 422-6352.</p></li>
+
+  <li><p>To find out more about reporting a sexual assault at USF, visit USFs Callisto website at: <a href="//usfca.callistocampus.org">usfca.callistocampus.org</a>.</p></li>
+
+  <li><p>For an off-campus resource, contact San Francisco Women Against Rape (SFWAR) (415) 647-7273 (<a href="//sfwar.org">sfwar.org</a>).</p></li>
+</ul>

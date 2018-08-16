@@ -4,4 +4,139 @@ navbar: Schedule
 layout: default
 ---
 
-Pending
+<div class="schedule">
+
+<p>The following is the current weekly schedule. This schedule is subject to change and will be frequently updated throughout the semester. The latest deadlines may also be found on <a href="{{ site.data.course.canvas }}">Canvas</a>.</p>
+
+{% for week in site.data.schedule %}
+<!-- start week {{ week.week }} row -->
+<div class="columns">
+  <!-- start week label -->
+  <div class="column is-narrow">
+    <div class="heading">
+      <span class="week">
+        {% if week.week %}Week {% if week.week < 10 %}0{% endif %}{{ week.week }}{% else %}{{ week.text }}{% endif %}
+      </span>
+    </div>
+  </div>
+  <!-- end week label -->
+
+  {% for lecture in week.lectures %}
+  <!-- start lectures -->
+  <div class="column">
+    <div class="cell">
+      <!-- start resources -->
+      <div class="resources">
+        <div class="heading">
+          {% if lecture.date %}{{ lecture.date | date: "%A %m/%d" }}{% endif %} Lecture
+        </div>
+
+        {% if lecture.resources %}
+        <ul class="icons">
+        {% for resource in lecture.resources %}
+          <li{% if resource.type %} class="has-text-{{ resource.type }}"{% endif %}>
+            {% if resource.icon %}<span class="li-icon">
+              <i class="fa-fw {{ resource.icon }}"></i>
+            </span>{% endif %}
+            {% if resource.link %}<a href="{{ resource.link }}"{% if resource.type %} class="has-text-{{ resource.type }}"{% endif %}>
+              {{ resource.text }}
+            </a>{% else %}{{ resource.text }}{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+      </div>
+      <!-- end resources -->
+
+      {% if lecture.deadlines %}
+      <!-- start deadlines -->
+      <div class="deadlines">
+        <div class="heading">Important Dates</div>
+
+        <ul class="icons">
+        {% for deadline in lecture.deadlines %}
+          <li{% if deadline.type %} class="has-text-{{ deadline.type }}"{% endif %}>
+            {% if deadline.icon %}<span class="li-icon">
+              <i class="fa-fw {{ deadline.icon }}"></i>
+            </span>{% endif %}
+            {% if deadline.date %}<span class="has-text-weight-bold">{{ deadline.date | date: "%m/%d" }}:</span>{% endif %}
+            {% if deadline.link %}<a href="{{ deadline.link }}"{% if deadline.type %} class="has-text-{{ deadline.type }}"{% endif %}>
+              {{ deadline.text }}
+            </a>{% else %}{{ deadline.text }}{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      <!-- end deadlines -->
+      {% endif %}
+    </div>
+  </div>
+  <!-- end lectures -->
+  {% endfor %}
+
+
+  <!-- start labs -->
+  <div class="column">
+    <div class="cell">
+    {% if week.labs %}
+      <div class="resources">
+        <div class="heading">
+          {% if week.week %}Week {% if week.week < 10 %}0{% endif %}{{ week.week }}{% else %}{{ week.text }}{% endif %} Labs
+        </div>
+
+        {% if week.labs.resources %}
+        <!-- start resources -->
+        <ul class="icons">
+        {% for resource in week.labs.resources %}
+          <li{% if resource.type %} class="has-text-{{ resource.type }}"{% endif %}>
+            {% if resource.icon %}<span class="li-icon">
+              <i class="fa-fw {{ resource.icon }}"></i>
+            </span>{% endif %}
+            {% if resource.link %}<a href="{{ resource.link }}">
+              {{ resource.text }}
+            </a>{% else %}{{ resource.text }}{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+        <!-- end resources -->
+        {% endif %}
+      </div>
+
+      {% if week.labs.deadlines %}
+      <!-- start deadlines -->
+      <div class="deadlines">
+        <div class="heading">Important Dates</div>
+
+        <ul class="icons">
+        {% for deadline in week.labs.deadlines %}
+          <li{% if deadline.type %} class="has-text-{{ deadline.type }}"{% endif %}>
+            {% if deadline.icon %}<span class="li-icon">
+              <i class="fa-fw {{ deadline.icon }}"></i>
+            </span>{% endif %}
+            {% if deadline.date %}<span class="has-text-weight-bold">{{ deadline.date | date: "%m/%d" }}:</span>{% endif %}
+            {% if deadline.link %}<a href="{{ deadline.link }}">
+              {{ deadline.text }}
+            </a>{% else %}{{ deadline.text }}{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      <!-- end deadlines -->
+    {% endif %}
+    {% endif %}
+    </div>
+  </div>
+  <!-- end labs -->
+</div>
+
+{% unless forloop.last %}<hr>{% endunless %}
+
+<!-- end week row -->
+{% endfor %}
+
+</div> <!-- end schedule -->
+
+<br/>
+
+<p>Instead of a final exam, final code reviews will be conducted during finals week. Please contact the instructor before making any travel plans during finals week!</p>

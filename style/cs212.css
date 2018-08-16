@@ -16,3 +16,63 @@ pre,
 .tt {
   font-family: 'Roboto Mono', monospace;
 }
+
+hr {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.schedule .cell {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.schedule .resources {
+  flex-grow: 1;
+}
+
+.schedule .deadlines {
+  margin-top: 1ex;
+}
+
+.schedule ul.icons {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  list-style: none;
+  margin-left: 1.75rem;
+  line-height: normal;
+}
+
+.schedule ul.icons li .li-icon {
+  position: absolute;
+  left: -1.75em;
+  width: 1.75em;
+  text-align: center;
+  line-height: inherit;
+}
+
+.schedule ul.icons li {
+  position: relative;
+}
+
+.schedule ul.icons li a {
+  color: inherit;
+}
+
+.schedule ul.icons li a:hover {
+  text-decoration: underline;
+}
+
+.schedule .heading {
+  color: #7a7a7a;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.schedule .heading .week {
+  display: inline-flex;
+  overflow: hidden;
+  width: 3.75rem;
+  white-space: nowrap;
+}

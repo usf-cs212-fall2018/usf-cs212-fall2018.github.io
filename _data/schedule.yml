@@ -1,0 +1,617 @@
+- week: 1
+  lectures:
+    - date: 2018-08-21
+      resources:
+      - text: 'Course Introduction'
+        link: '/syllabus.html'
+        icon: 'fas fa-hand-paper'
+        type: false
+      - text: 'Project Euler'
+        link: false
+        icon: 'fas fa-code'
+        type: false
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-08-23
+      resources:
+      - text: 'Project Euler'
+        link: '#'
+        icon: false
+        type: false
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'No Labs in Week 1'
+        link: false
+        icon: 'fas fa-exclamation-triangle'
+        type: 'danger'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 2
+  lectures:
+    - date: 2018-08-28
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: 2018-08-27
+        text: 'Add Deadline'
+        link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
+        icon: 'far fa-calendar-plus'
+        type: 'grey'
+    - date: 2018-08-30
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 3
+  lectures:
+    - date: 2018-09-04
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-09-06
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: 2018-09-07
+        text: 'Drop Deadline'
+        link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
+        icon: 'far fa-calendar-minus'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 4
+  lectures:
+    - date: 2018-09-11
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-09-13
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 5
+  lectures:
+    - date: 2018-09-18
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-09-20
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 6
+  lectures:
+    - date: 2018-09-25
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-09-27
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 7
+  lectures:
+    - date: 2018-10-02
+      resources:
+      - text: 'Exam 1'
+        link: false
+        icon: 'far fa-tasks'
+        type: 'danger'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-10-04
+      resources:
+      - text: 'Exam 1 Retake'
+        link: false
+        icon: 'far fa-tasks'
+        type: 'danger'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 8
+  lectures:
+    - date: 2018-10-09
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-10-11
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 9
+  lectures:
+    - date: 2018-10-16
+      resources:
+      - text: 'Fall Break (No Class)'
+        link: false
+        icon: 'far fa-umbrella-beach'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-10-18
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 10
+  lectures:
+    - date: 2018-10-23
+      resources:
+      - text: 'Guest Speaker(s)'
+        link: false
+        icon: 'far fa-user-astronaut'
+        type: 'success'
+      deadlines:
+      - date: false
+        text: 'Sophie @ IEEE VIS'
+        link: false
+        icon: 'far fa-plane-departure'
+        type: 'grey'
+    - date: 2018-10-25
+      resources:
+      - text: 'Guest Speaker(s)'
+        link: false
+        icon: 'far fa-user-astronaut'
+        type: 'success'
+      deadlines:
+      - date: false
+        text: 'Sophie @ IEEE VIS'
+        link: false
+        icon: 'far fa-plane-departure'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 11
+  lectures:
+    - date: 2018-10-30
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-11-01
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: 2018-11-01
+        text: 'Project Cutoff'
+        link: '/syllabus.html#pass-requirements'
+        icon: 'far fa-flag'
+        type: 'danger'
+      - date: 2018-11-02
+        text: 'Withdraw Deadline'
+        link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
+        icon: 'far fa-calendar-minus'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 12
+  lectures:
+    - date: 2018-11-06
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-11-08
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 13
+  lectures:
+    - date: 2018-11-13
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-11-15
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 14
+  lectures:
+    - date: 2018-11-20
+      resources:
+      - text: 'Exam Review'
+        link: false
+        icon: 'far fa-tasks'
+        type: false
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-11-22
+      resources:
+      - text: 'Thanksgiving Break (No Class)'
+        link: false
+        icon: 'far fa-utensils'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 15
+  lectures:
+    - date: 2018-11-27
+      resources:
+      - text: 'Exam 2'
+        link: false
+        icon: 'far fa-tasks'
+        type: 'danger'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    - date: 2018-11-29
+      resources:
+      - text: 'Exam 2 Retake'
+        link: false
+        icon: 'far fa-tasks'
+        type: 'danger'
+      deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+- week: 16
+  lectures:
+    - date: 2018-12-04
+      resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      deadlines:
+      - date: false
+        text: 'Last Day of Class'
+        link: false
+        icon: 'far fa-calendar-alt'
+        type: 'grey'
+    - date: 2018-12-06
+      resources:
+      - text: 'Review Day (No Class)'
+        link: false
+        icon: 'far fa-calendar-times'
+        type: 'grey'
+      deadlines:
+      - date: 2018-12-05
+        text: 'Review Cutoff'
+        link: false
+        icon: 'far fa-flag'
+        type: 'danger'
+  labs:
+    resources:
+      - text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+    deadlines:
+      - date: false
+        text: 'Pending'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'

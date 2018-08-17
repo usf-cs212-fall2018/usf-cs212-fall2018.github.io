@@ -4,4 +4,23 @@ navbar: Home
 layout: default
 ---
 
-Pending
+<p>Welcome to the course website for both sections of <strong>CS 212 Software Development</strong> for Fall 2018! You can find the <a href="{{ "syllabus.html" | relative_link }}">Syllabus</a> and <a href="{{ "schedule.html" | relative_link }}">Weekly Schedule</a> (including links to the lecture materials, quizzes, homework, and projects) on this site. Visit <a href="{{ site.data.course.canvas }}">Canvas</a> for grades and assignment submission. Visit <a href="{{ site.data.course.piazza }}">Piazza</a> for announcements and questions.</p>
+
+<h3>Upcoming Schedule</h3>
+
+<div class="schedule">
+{% for week in site.data.schedule %}
+{%- assign today = 'now' | date: '%s' -%}
+{%- assign lastweek = today | minus: 604800 -%}
+{%- assign nextweek = today | plus: 1209600 -%}
+{%- assign current = week.lectures[0].date | date: '%s' -%}
+{%- assign current = current | plus: 0 -%}
+{% if current >= lastweek and current <= nextweek %}
+{% include week.html week = week %}
+{% endif %}
+{% endfor %}
+</div>
+
+<br/>
+
+<p>See the <a href="{{ "schedule.html" | relative_link }}">Weekly Schedule</a> for the full schedule.</p>

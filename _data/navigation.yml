@@ -9,6 +9,9 @@ left:
     name: 'Syllabus'
     link: 'syllabus.html'
 right:
+  - icon: 'fab fa-google'
+    name: 'Calendar'
+    link: 'https://calendar.google.com/calendar/embed?title=CS%20212&showPrint=0&height=600&wkst=1&bgcolor=%23FFFFFF&src=cs.usfca.edu_m4pfugives9824svmqi94vuchk%40group.calendar.google.com&color=%23182C57&src=bf15o1g0kavodhfmf4n9jkg19qqqodrf%40import.calendar.google.com&color=%2329527A&ctz=America%2FLos_Angeles'
   - icon: 'fab fa-github-alt'
     name: 'Github'
     link: 'https://github.com/usf-cs212-fall2018'

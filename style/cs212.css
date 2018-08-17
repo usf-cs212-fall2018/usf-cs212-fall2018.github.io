@@ -32,7 +32,7 @@ hr {
 }
 
 .schedule .deadlines {
-  margin-top: 1ex;
+  margin-top: 2ex;
 }
 
 .schedule ul.icons {
@@ -63,14 +63,7 @@ hr {
   text-decoration: underline;
 }
 
-.schedule .heading {
-  color: #7a7a7a;
-  font-weight: 700;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-}
-
-.schedule .heading .week {
+.schedule .week {
   display: inline-flex;
   overflow: hidden;
   width: 3.75rem;

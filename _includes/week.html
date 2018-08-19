@@ -23,7 +23,7 @@
         {% if lecture.resources %}
         <ul class="icons">
         {% for resource in lecture.resources %}
-          <li{% if resource.type %} class="has-text-{{ resource.type }}"{% endif %}>
+          <li{% if resource.type %} class="has-text-{{ resource.type }}"{% endif %}{% if resource.bump %}style="padding-top: 1ex;"{% endif %}>
             {% if resource.icon %}<span class="li-icon">
               <i class="fa-fw {{ resource.icon }}"></i>
             </span>{% endif %}
@@ -41,7 +41,7 @@
       {% if lecture.deadlines %}
       <!-- start deadlines -->
       <div class="deadlines">
-        <div class="heading">Important Dates</div>
+        <div class="heading">Dates &amp; Deadlines</div>
 
         <ul class="icons">
         {% for deadline in lecture.deadlines %}
@@ -95,7 +95,7 @@
       {% if week.labs.deadlines %}
       <!-- start deadlines -->
       <div class="deadlines">
-        <div class="heading">Important Dates</div>
+        <div class="heading">Dates &amp; Deadlines</div>
 
         <ul class="icons">
         {% for deadline in week.labs.deadlines %}

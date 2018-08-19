@@ -8,6 +8,19 @@ layout: default
 
 <p>The following is the current weekly schedule. This schedule is subject to change and will be frequently updated throughout the semester. The latest deadlines may also be found on <a href="{{ site.data.course.canvas }}">Canvas</a>.</p>
 
+<div class="buttons">
+<span class="button is-small is-static"><i class="far fa-atlas"></i>&nbsp;Website</span>
+<span class="button is-small is-static"><i class="far fa-chalkboard-teacher"></i>&nbsp;Slides</span>
+<span class="button is-small is-static"><i class="far fa-code"></i>&nbsp;Code</span>
+<span class="button is-small is-static"><i class="far fa-video"></i>&nbsp;Video</span>
+<span class="button is-small is-static"><i class="far fa-project-diagram"></i>&nbsp;Project</span>
+<span class="button is-small is-static"><i class="far fa-file-code"></i>&nbsp;Homework</span>
+<span class="button is-small is-static"><i class="far fa-laptop-code"></i>&nbsp;Lab</span>
+<span class="button is-small is-static"><i class="far fa-edit"></i>&nbsp;Quiz</span>
+<span class="button is-small is-static"><i class="far fa-tasks"></i>&nbsp;Exam</span>
+<span class="button is-small is-static"><i class="far fa-calendar-alt"></i>&nbsp;Date</span>
+</div>
+
 {% for week in site.data.schedule %}
 {% include week.html week = week %}
 {% unless forloop.last %}<hr>{% endunless %}

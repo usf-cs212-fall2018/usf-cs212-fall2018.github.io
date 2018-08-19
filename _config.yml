@@ -3,5 +3,5 @@ name: "Sophie Engle"
 repository: "usf-cs212-fall2018/usf-cs212-fall2018.github.io"
 timezone: "America/Los_Angeles"
 
-gems:
+plugins:
   - jekyll-last-modified-at

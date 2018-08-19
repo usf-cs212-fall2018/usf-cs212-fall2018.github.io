@@ -4,50 +4,54 @@
       resources:
       - text: 'Course Introduction'
         link: '/syllabus.html'
-        icon: 'fas fa-hand-paper'
-        type: false
+        icon: 'fas fa-atlas'
       - text: 'Project Euler'
-        link: false
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/ProjectEuler'
         icon: 'fas fa-code'
-        type: false
       deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Due: Lab Survey'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2329036'
+        icon: 'far fa-edit'
+    - date: 2018-08-23
+      resources:
+      - text: 'File IO'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-    - date: 2018-08-23
-      resources:
-      - text: 'Project Euler'
-        link: '#'
-        icon: false
-        type: false
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Exceptions'
         link: false
         icon: 'far fa-question-circle'
+        type: 'grey'
+      - text: 'ArgumentMap'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
+      deadlines:
+      - date: false
+        text: 'Due: Github Survey'
+        link: false
+        icon: 'far fa-edit'
         type: 'grey'
   labs:
     resources:
-      - text: 'No Labs in Week 1'
+      - text: 'No Labs in Week 01'
         link: false
         icon: 'fas fa-exclamation-triangle'
         type: 'danger'
-    deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
 - week: 2
   lectures:
     - date: 2018-08-28
       resources:
-      - text: 'Pending'
+      - text: 'Data Structures'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'Project 1'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+        bump: true
       deadlines:
       - date: 2018-08-27
         text: 'Add Deadline'
@@ -56,49 +60,70 @@
         type: 'grey'
     - date: 2018-08-30
       resources:
-      - text: 'Pending'
+      - text: 'Iteration'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Search'
         link: false
         icon: 'far fa-question-circle'
+        type: 'grey'
+      - text: 'WordIndex'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
+      deadlines:
+      - date: false
+        text: 'Due: ArgumentMap'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 1'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'ArgumentMap'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'WordIndex'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 02 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 3
   lectures:
     - date: 2018-09-04
       resources:
-      - text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Object Oriented Programming'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
     - date: 2018-09-06
       resources:
-      - text: 'Pending'
+      - text: 'Object Oriented Programming'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'JSONWriter'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
       deadlines:
+      - date: false
+        text: 'Due: WordIndex'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
       - date: 2018-09-07
         text: 'Drop Deadline'
         link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
@@ -106,129 +131,180 @@
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 1'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'WordIndex'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'JSONWriter'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 03 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 4
   lectures:
     - date: 2018-09-11
       resources:
-      - text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Object Oriented Programming'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
     - date: 2018-09-13
       resources:
-      - text: 'Pending'
+      - text: 'Streams'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Lambda Expressions'
         link: false
         icon: 'far fa-question-circle'
+        type: 'grey'
+      - text: 'FileStemmer'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
+      deadlines:
+      - date: false
+        text: 'Due: JSONWriter'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 1'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'JSONWriter'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'FileStemmer'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 04 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 5
   lectures:
     - date: 2018-09-18
       resources:
-      - text: 'Pending'
+      - text: 'Inheritance'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'Project 2'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+        bump: true
       deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Project 1 Checkpoint'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'far fa-project-diagram'
+        type: 'info'
     - date: 2018-09-20
       resources:
-      - text: 'Pending'
+      - text: 'Inheritance'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'MovieSorter'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
+      deadlines:
+      - text: 'Due: FileStemmer'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 1'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'Project 2'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'FileStemmer'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'MovieSorter'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 05 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 6
   lectures:
     - date: 2018-09-25
       resources:
-      - text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Testing'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
     - date: 2018-09-27
       resources:
-      - text: 'Pending'
+      - text: 'Logging'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'LoggerSetup'
+        link: false
+        icon: 'far fa-file-alt'
+        type: 'grey'
+        bump: true
       deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: MovieSorter'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 1'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'Project 2'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'MovieSorter'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'LoggerSetup'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 06 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 7
   lectures:
@@ -238,12 +314,6 @@
         link: false
         icon: 'far fa-tasks'
         type: 'danger'
-      deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
     - date: 2018-10-04
       resources:
       - text: 'Exam 1 Retake'
@@ -252,59 +322,65 @@
         type: 'danger'
       deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: LoggerSetup'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'No Labs in Week 07'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-    deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'fas fa-exclamation-triangle'
+        type: 'danger'
 - week: 8
   lectures:
     - date: 2018-10-09
       resources:
-      - text: 'Pending'
+      - text: 'Multithreading'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'Project 3'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+        bump: true
       deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Project 2 Checkpoint'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'far fa-project-diagram'
+        type: 'info'
     - date: 2018-10-11
       resources:
-      - text: 'Pending'
+      - text: 'Multithreading'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'ReadWriteLock'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-file-alt'
         type: 'grey'
+        bump: true
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 2'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'Project 3'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'ReadWriteLock'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 08 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 9
   lectures:
@@ -314,36 +390,29 @@
         link: false
         icon: 'far fa-umbrella-beach'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
     - date: 2018-10-18
       resources:
-      - text: 'Pending'
+      - text: 'Multithreading'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'PrimeFinder'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
       deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: ReadWriteLock'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'No Labs in Week 09'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-    deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'fas fa-exclamation-triangle'
+        type: 'danger'
 - week: 10
   lectures:
     - date: 2018-10-23
@@ -351,7 +420,7 @@
       - text: 'Guest Speaker(s)'
         link: false
         icon: 'far fa-user-astronaut'
-        type: 'success'
+        type: 'primary'
       deadlines:
       - date: false
         text: 'Sophie @ IEEE VIS'
@@ -360,53 +429,87 @@
         type: 'grey'
     - date: 2018-10-25
       resources:
-      - text: 'Guest Speaker(s)'
+      - text: 'Regular Expressions'
         link: false
         icon: 'far fa-user-astronaut'
-        type: 'success'
+        type: 'grey'
+      - text: 'HTMLCleaner'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
       deadlines:
-      - date: false
-        text: 'Sophie @ IEEE VIS'
+      - text: 'Due: PrimeFinder'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'Sophie @ IEEE VIS'
         link: false
         icon: 'far fa-plane-departure'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 2'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'Project 3'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'PrimeFinder'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      - text: 'HTMLCleaner'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 10 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 11
   lectures:
     - date: 2018-10-30
       resources:
-      - text: 'Pending'
+      - text: 'Regular Expressions'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'Project 4'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+        bump: true
       deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Project 3 Checkpoint'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'far fa-project-diagram'
+        type: 'info'
     - date: 2018-11-01
       resources:
-      - text: 'Pending'
+      - text: 'Sockets'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'LinkParser'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
       deadlines:
+      - text: 'Due: HTMLCleaner'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
       - date: 2018-11-01
         text: 'Project Cutoff'
         link: '/syllabus.html#pass-requirements'
-        icon: 'far fa-flag'
+        icon: 'far fa-calendar-check'
         type: 'danger'
       - date: 2018-11-02
         text: 'Withdraw Deadline'
@@ -415,130 +518,145 @@
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 3'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'Project 4'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'HTMLCleaner'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'LinkParser'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 11 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 12
   lectures:
     - date: 2018-11-06
       resources:
-      - text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Servlets'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
     - date: 2018-11-08
       resources:
-      - text: 'Pending'
+      - text: 'Sessions'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'HeaderServer'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-file-code'
+        type: 'grey'
+        bump: true
+      deadlines:
+      - text: 'Due: LinkParser'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 3'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'Project 4'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'LinkParser'
+        link: false
+        icon: 'far fa-file-code'
+        type: 'grey'
+      - text: 'HeaderServer'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 12 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 13
   lectures:
     - date: 2018-11-13
       resources:
-      - text: 'Pending'
+      - text: 'SQL'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Final Project'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
         type: 'grey'
+        bump: true
     - date: 2018-11-15
       resources:
-      - text: 'Pending'
+      - text: 'SQL'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
       deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Due: HeaderServer'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-file-code'
         type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'Project 3'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'Project 4'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+      - text: 'HeaderServer'
+        link: false
+        icon: 'far fa-file-code'
         type: 'grey'
     deadlines:
       - date: false
-        text: 'Pending'
+        text: 'Due: Week 13 Lab'
         link: false
-        icon: 'far fa-question-circle'
+        icon: 'far fa-laptop-code'
         type: 'grey'
 - week: 14
   lectures:
     - date: 2018-11-20
       resources:
-      - text: 'Exam Review'
-        link: false
-        icon: 'far fa-tasks'
-        type: false
-      deadlines:
-      - date: false
-        text: 'Pending'
+      - text: 'Optional Topics'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      deadlines:
+      - text: 'Project 4 Checkpoint'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'info'
     - date: 2018-11-22
       resources:
       - text: 'Thanksgiving Break (No Class)'
         link: false
         icon: 'far fa-utensils'
         type: 'grey'
-      deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'No Labs in Week 14'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-    deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'fas fa-exclamation-triangle'
+        type: 'danger'
 - week: 15
   lectures:
     - date: 2018-11-27
@@ -547,41 +665,23 @@
         link: false
         icon: 'far fa-tasks'
         type: 'danger'
-      deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
     - date: 2018-11-29
       resources:
       - text: 'Exam 2 Retake'
         link: false
         icon: 'far fa-tasks'
         type: 'danger'
-      deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'No Labs in Week 15'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-    deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'fas fa-exclamation-triangle'
+        type: 'danger'
 - week: 16
   lectures:
     - date: 2018-12-04
       resources:
-      - text: 'Pending'
+      - text: "What's Next"
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
@@ -601,17 +701,16 @@
       - date: 2018-12-05
         text: 'Review Cutoff'
         link: false
-        icon: 'far fa-flag'
+        icon: 'far fa-calendar-check'
         type: 'danger'
+      - date: 2018-12-07
+        text: 'CS Night'
+        link: false
+        icon: 'far fa-calendar-alt'
+        type: 'grey'
   labs:
     resources:
-      - text: 'Pending'
+      - text: 'No Labs in Week 16'
         link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-    deadlines:
-      - date: false
-        text: 'Pending'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        icon: 'fas fa-exclamation-triangle'
+        type: 'danger'

@@ -7,11 +7,14 @@
         icon: 'fas fa-atlas'
       - text: 'Project Euler'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/ProjectEuler'
-        icon: 'fas fa-code'
+        icon: 'far fa-code'
       deadlines:
       - text: 'Due: Lab Survey'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2329036'
         icon: 'far fa-edit'
+      - text: 'Due: Piazza Setup'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782072'
+        icon: 'far fa-user-friends'
     - date: 2018-08-23
       resources:
       - text: 'File IO'

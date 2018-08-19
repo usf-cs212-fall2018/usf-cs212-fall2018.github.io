@@ -358,17 +358,130 @@ This course gives students experience with advanced programming topics, includin
 
 <p>This section covers how the learning outcomes for this course will be assessed. This course will be a hybrid flipped classroom, with an emphasis on mastery learning. The majority of the grade will be derived from projects and exams. See the following subsections for details.</p>
 
+{% include section.html level="h3" name="Pass Requirements" %}
+
+<p>To ensure students are meeting the <a href="#{{ "Learning Outcomes" | slugify }}">learning outcomes</a> for this course, students <strong>must</strong> meet the following minimum requirements to receive a non-failing grade (D- or higher) in this course:</p>
+
+<ul>
+  <li><p><strong>Exam Pass Requirement:</strong> Students must receive a C letter grade or higher on at least one exam (including retakes).</p></li>
+
+  <li><p><strong>Project Pass Requirement 1:</strong> Students must pass the functionality requirements for a minimum of 2 projects and the design requirements for at least 1 project by the <a href="#{{ "Important Dates" | slugify }}">project cutoff</a> deadline.</p></li>
+
+  <li><p><strong>Project Pass Requirement 2:</strong> Students must pass the functionality requirements for a minimum of 3 projects and the design requirements for at least 2 projects by the end of the semester.</p></li>
+</ul>
+
+<p>Failure to meet 1 or more of the following requirements will result in an <strong>automatic F letter grade</strong> for this course, regardless of what your current letter grade is in Canvas.</p>
+
+<p>If students are not meeting one or more of these requirements by the withdraw deadline, they are encouraged to withdraw from the class to avoid the F letter grade on their transcripts. Note, however, that a W (withdraw) counts as an attempt and CS majors and minors have restrictions on how many times they may attempt CS courses.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;Meeting the pass requirements does not guarantee a passing grade. See the <a href="#{{ "Grade Breakdown" | slugify }}">Grade Breakdown</a> section below for how the final grade will be calculated.
+  </div>
+</article>
+
 {% include section.html level="h3" name="Grade Breakdown" %}
 
 Pending
 
 {% include section.html level="h3" name="Grading Scale" %}
 
-Pending
+<p>The following is the grading scale mapping percentage to letter grade and GPA for this course. Please keep in mind that the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> must be met to avoid an automatic F letter grade.</p>
 
-{% include section.html level="h3" name="Pass Requirements" %}
+<table class="table is-hover" style="width: auto;">
+  <thead>
+    <tr>
+      <th colspan="3" class="has-text-centered">Letter</th>
+      <th>GPA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="has-text-right">97% &leq;</td>
+      <td>A+</td>
+      <td>&leq; 100%</td>
+      <td class="has-text-centered">4.0</td>
+    </tr>
+    <tr>
+      <td class="has-text-right">94% &leq;</td>
+      <td>A&nbsp;</td>
+      <td>&lt; 97%</td>
+      <td class="has-text-centered">4.0</td>
+    </tr>
+    <tr>
+      <td class="has-text-right">90% &leq;</td>
+      <td>A&ndash;</td>
+      <td>&lt; 94%</td>
+      <td class="has-text-centered">3.7</td>
+    </tr>
 
-Pending
+    <tr>
+      <td class="has-text-right">87% &leq;</td>
+      <td>B+</td>
+      <td>&lt; 90%</td>
+      <td class="has-text-centered">3.3</td>
+    </tr>
+    <tr>
+      <td class="has-text-right">84% &leq;</td>
+      <td>B&nbsp;</td>
+      <td>&lt; 87%</td>
+      <td class="has-text-centered">3.0</td>
+    </tr>
+    <tr>
+      <td class="has-text-right">80% &leq;</td>
+      <td>B&ndash;</td>
+      <td>&lt; 84%</td>
+      <td class="has-text-centered">2.7</td>
+    </tr>
+
+    <tr>
+      <td class="has-text-right">77% &leq;</td>
+      <td>C+</td>
+      <td>&lt; 80%</td>
+      <td class="has-text-centered">2.3</td>
+    </tr>
+    <tr>
+      <td class="has-text-right">74% &leq;</td>
+      <td>C&nbsp;</td>
+      <td>&lt; 77%</td>
+      <td class="has-text-centered">2.0</td>
+    </tr>
+    <tr class="has-text-danger">
+      <td class="has-text-right">70% &leq;</td>
+      <td>C&ndash;</td>
+      <td>&lt; 74%</td>
+      <td class="has-text-centered">1.7</td>
+    </tr>
+
+    <tr class="has-text-danger">
+      <td class="has-text-right">67% &leq;</td>
+      <td>D+</td>
+      <td>&lt; 70%</td>
+      <td class="has-text-centered">1.3</td>
+    </tr>
+    <tr class="has-text-danger">
+      <td class="has-text-right">64% &leq;</td>
+      <td>D&nbsp;</td>
+      <td>&lt; 67%</td>
+      <td class="has-text-centered">1.0</td>
+    </tr>
+    <tr class="has-text-danger">
+      <td class="has-text-right">60% &leq;</td>
+      <td>D&ndash;</td>
+      <td>&lt; 64%</td>
+      <td class="has-text-centered">0.7</td>
+    </tr>
+
+    <tr class="has-text-danger">
+      <td class="has-text-right"></td>
+      <td>F&nbsp;</td>
+      <td>&lt; 60%</td>
+      <td class="has-text-centered">0.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Non-passing grades are <span class="has-text-danger">highlighted in red</span>. See the <a href="https://www.usfca.edu/catalog/regulations/student">Undergraduate Regulations</a> for more about letter grades and GPA.</p>
 
 <hr>
 
@@ -413,7 +526,7 @@ Pending
   </div>
 </article>
 
-{% include section.html level="h3" name="Accouncements Policy" %}
+{% include section.html level="h3" name="Announcements Policy" %}
 
 <p>All announcements will be posted on <a href="{{ site.data.course.piazza }}">Piazza</a>. All students are expected to enroll in Piazza and monitor the announcements in a timely manner. This includes any changes to the lecture, lab, office hour, or deadline schedule.</p>
 
@@ -473,7 +586,28 @@ Pending
 
 {% include section.html level="h3" name="Getting Help" %}
 
-Pending
+<p>A good rule of thumb is to seek help after you have been stuck for an hour. There are many ways to get help with this class:</p>
+
+<ul>
+  <li><p>Ask questions on <a href="{{ site.data.course.piazza }}">Piazza</a>. Most questions receive a response in under 24 hours (sometimes within 30 minutes). You may figure out your problem before you get a response, but then you can delete your question or mark it as solved.</p></li>
+
+  <li><p>Ask questions during the instructor office hours. Office hours are first-come first-serve and there is lots of seating (including power outlets for charging).</p></li>
+
+  <li><p>Ask the teacher assistants for help during lab sessions or their office hours. All of the teacher assistants for this course took CS 212 previously with Professor Engle.</p></li>
+
+  <li><p>Ask a CS tutor for help at the <a href="http://tutoringcenter.cs.usfca.edu/">CS Tutoring Center</a>. Many of the tutors took CS 212 previously (and many of them also took it with Professor Engle). However, even tutors that did not take CS 212 may be able to help. Sometimes, it just helps to talk about your code with someone (see <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck debugging</a>).</p></li>
+
+  <li><p>Ask your classmates for high-level help or hints, but be careful! To avoid violating the <a href="#{{ "Cheating Policy" | slugify }}">cheating policy</a> and <a href="#{{ "Academic Integrity" | slugify }}">academic integrity policy</a>, make sure you never share code with your classmates or look at the code of your classmates.</p></li>
+
+</ul>
+
+<p>If you are feeling generally overwhelmed (including emotionally) and need advice, do not hesitate to reach out to the instructor. Since office hours can be crowded at times, you are welcome to schedule an appointment with the instructor via <a href="{{ site.data.course.piazza }}">Piazza</a> to chat in private.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;Do not be tempted to cheat if you are struggling. There are <a href="#{{ "Cheating Policy" | slugify }}">serious consequences</a> to violating the University's <a href="#{{ "Academic Integrity" | slugify }}">academic integrity policy</a> and the student honor code.</p>
+  </div>
+</article>
 
 <hr>
 

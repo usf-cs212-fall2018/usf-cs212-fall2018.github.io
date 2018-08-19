@@ -54,7 +54,7 @@ layout: default
 
 This course gives students experience with advanced programming topics, including inheritance and polymorphism, multi-threaded programming, networking, database programming, and web development. Students will also learn techniques for designing, debugging, refactoring, and reviewing code.
 
-{% include section.html level="h3" name="Lectures" %}
+{% include section.html level="h3" name="Lecture Sections" %}
 
 <p>There are two sections of {{ site.data.course.code }}. The class times are:</p>
 
@@ -76,7 +76,7 @@ This course gives students experience with advanced programming topics, includin
 
 <p>Class time will consist of traditional lectures, live coding sessions, quizzes, discussions, guest speakers, and more.</p>
 
-{% include section.html level="h3" name="Labs" %}
+{% include section.html level="h3" name="Lab Sessions" %}
 
 <p>Students must plan to attend one lab session per week. With instructor permission, students may attend a lab session not associated with their section. Each lab has a maximum capacity of 15 students. The lab sessions are:</p>
 
@@ -382,7 +382,126 @@ This course gives students experience with advanced programming topics, includin
 
 {% include section.html level="h3" name="Grade Breakdown" %}
 
-Pending
+<p>If the <a href="#{{ "Pass Requirements" | slugify }}">pass requirements</a> are met, then the final grade will be calculated as follows:</p>
+
+<table class="table is-hover" style="width: auto;">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Percent</th>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><a href="#{{ "Participation" | slugify }}">Participation</a></td>
+      <td class="has-text-right">5%</td>
+    </tr>
+
+    <tr>
+      <td><a href="#{{ "Labs" | slugify }}">Labs</a></td>
+      <td class="has-text-right">5%</td>
+    </tr>
+
+    <tr>
+      <td><a href="#{{ "Quizzes" | slugify }}">Quizzes</a></td>
+      <td class="has-text-right">5%</td>
+    </tr>
+
+    <tr>
+      <td><a href="#{{ "Exams" | slugify }}">Exams</a></td>
+      <td class="has-text-right">10%</td>
+    </tr>
+
+    <tr>
+      <td><a href="#{{ "Homework" | slugify }}">Homework</a></td>
+      <td class="has-text-right">15%</td>
+    </tr>
+
+    <tr>
+      <td><a href="#{{ "Labs" | slugify }}">Projects</a></td>
+      <td class="has-text-right">60%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each of these categories are described more below.</p>
+
+{% include section.html level="h4" name="Participation" %}
+
+<p>Participation includes pass/fail assignments such as participating in surveys, discussions on Piazza, in-class exercises, attending labs, and participating in other on-campus or off-campus CS events.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted for participation assignments.
+  </div>
+</article>
+
+{% include section.html level="h4" name="Labs" %}
+
+<p>Lab assignments consist of one hour of coding on either the homework or projects per week, and are graded on a pass/fail basis. Ideally, this coding hour should occur during the assigned lab session.</p>
+
+<p>The lowest lab grade will be dropped at the end of the semester.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted for lab assignments.
+  </div>
+</article>
+
+{% include section.html level="h4" name="Quizzes" %}
+
+<p>Quizzes are sometimes given unannounced at the start of class, but students will often be given an opportunity to retake those quizzes. Quizzes will be conducted on <a href="{{ site.data.course.canvas }}">Canvas</a>, and the answers will automatically be released after the quiz deadline. Because of this, late submissions are not accepted for quizzes.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted for quizzes.
+  </div>
+</article>
+
+{% include section.html level="h4" name="Exams" %}
+
+<p>There will be two exams. The exams are <em>not</em> comprehensive. Each exam will have a retake opportunity where students may earn back a small fraction of the points missed on the original attempt. See <a href="#{{ "Important Dates" | slugify }}">Important Dates</a> for the exact exam and exam retake dates.</p>
+
+<p>Instead of a final exam, students will have a final project graded during finals week. A signup sheet will be posted towards the end of the semester. If you have travel plans during finals week, please confirm your travel dates first with the instructor.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;Students must receive a C letter grade or higher on at least one exam (including retakes). See the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> for more.
+  </div>
+</article>
+
+{% include section.html level="h4" name="Homework" %}
+
+<p>Homework programming assignments are assigned on a semi-weekly basis and are due the following week. Students may work on these assignments during their lab session, allowing them to get immediate help from the teacher assistants.</p>
+
+<p>Homework will receive a late deduction if submitted after the deadline as follows:</p>
+
+<ul>
+  <li>&ndash;10% deduction for homework submitted 15 minutes to 24 hours after the deadline</li>
+  <li>&ndash;20% deduction for homework submitted 24 hours to 48 hours after the deadline</li>
+</ul>
+
+<p>The lowest homework grade will be dropped at the end of the semester.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-alarm-clock"></i>&nbsp;Homework submitted over 48 hours after the deadline will not be graded.
+  </div>
+</article>
+
+{% include section.html level="h4" name="Projects" %}
+
+<p>Programming projects place an emphasis on code quality&mdash;it is not enough to achieve correct results. Each project must pass several functionality tests and then undergo a rigorous code review checking for specific criteria, such as proper encapsulation and generalization, efficiency, and maintainability.</p>
+
+<p>We use a <strong>mastery learning</strong> approach with projects: students must perfect both the functionality and design of the current project before moving on to the next project. The final project grade will depend on when and how many projects are completed.</p>
+
+<p>Each project grade is split into two components: functionality (evaluated with project checkpoints) and design (evaluated with code reviews). The project checkpoint must be passed before the code review may be passed, students must pass code review for each project sequentially, and may only have one review appointment per week.</p>
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-alarm-clock"></i>&nbsp;There are only 2 hard deadlines for projects: the project cutoff deadline and the end of the semester. See the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> for details.
+  </div>
+</article>
 
 {% include section.html level="h3" name="Grading Scale" %}
 

@@ -8,6 +8,9 @@ left:
   - icon: 'fas fa-file-alt'
     name: 'Syllabus'
     link: 'syllabus.html'
+  - icon: 'fas fa-book'
+    name: 'Guides'
+    link: '/guides/'    
 right:
   - icon: 'fab fa-google'
     name: 'Calendar'

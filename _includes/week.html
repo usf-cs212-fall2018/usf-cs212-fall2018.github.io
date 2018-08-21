@@ -23,7 +23,7 @@
         {% if lecture.resources %}
         <ul class="icons">
         {% for resource in lecture.resources %}
-          <li{% if resource.type %} class="has-text-{{ resource.type }}"{% endif %}{% if resource.bump %}style="padding-top: 1ex;"{% endif %}>
+          <li{% if resource.type %} class="has-text-{{ resource.type }}"{% endif %}{% if resource.bump %} style="padding-top: 1ex;"{% endif %}>
             {% if resource.icon %}<span class="li-icon">
               <i class="fa-fw {{ resource.icon }}"></i>
             </span>{% endif %}

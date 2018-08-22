@@ -361,6 +361,10 @@
         link: false
         icon: 'far fa-project-diagram'
         type: 'info'
+      - date: false
+        text: 'Due: Piazza Participation 1'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6786309'
+        icon: 'far fa-user-friends'
     - date: 2018-10-11
       resources:
       - text: 'Multithreading'
@@ -701,6 +705,10 @@
         link: false
         icon: 'far fa-calendar-alt'
         type: 'grey'
+      - date: false
+        text: 'Due: Piazza Participation 2'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6786336'
+        icon: 'far fa-user-friends'
     - date: 2018-12-06
       resources:
       - text: 'Review Day (No Class)'

@@ -68,10 +68,10 @@ cd ~/.ssh/
 ls
 ```  
 
-Next, you need to let `stargate.cs.usfca.edu` know your public key is authorized. You do this by copying the contents of your public key to the `authorized_keys2` file in the `.ssh` directory. You *should* be able to use these commands to do this in one step:
+Next, you need to let `stargate.cs.usfca.edu` know your public key is authorized. You do this by copying the contents of your public key to the `authorized_keys` file in the `.ssh` directory. You *should* be able to use these commands to do this in one step:
 
 ```bash
-cat [keyname].pub | ssh [username]@stargate.cs.usfca.edu "cat >> ~/.ssh/authorized_keys2"
+cat [keyname].pub | ssh [username]@stargate.cs.usfca.edu "cat >> ~/.ssh/authorized_keys"
 ```
 
 Replace `[username]` with your CS username and `[keyname]` with the name of your public key. This is usually `id_rsa.pub` but the exact name depends on how you generated your keys.

@@ -7,7 +7,7 @@ layout: default
 <h3>General Guides</h3>
 
 <ul>
-{% for post in site.categories['general'] %}
+{% for post in site.categories['general'] reversed %}
   <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
@@ -15,7 +15,7 @@ layout: default
 <h3>Lab Guides</h3>
 
 <ul>
-{% for post in site.categories['homework'] %}
+{% for post in site.categories['labs'] reversed %}
   <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
@@ -23,7 +23,7 @@ layout: default
 <h3>Homework Guides</h3>
 
 <ul>
-{% for post in site.categories['homework'] %}
+{% for post in site.categories['homework'] reversed %}
   <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
@@ -31,7 +31,7 @@ layout: default
 <h3>Project Guides</h3>
 
 <ul>
-{% for post in site.categories['project'] %}
+{% for post in site.categories['project'] reversed %}
   <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

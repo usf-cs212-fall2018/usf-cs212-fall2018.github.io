@@ -5,7 +5,7 @@ layout: default
 ---
 
 <ul>
-{% for post in site.categories['project'] %}
+{% for post in site.categories['project'] reversed %}
   <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

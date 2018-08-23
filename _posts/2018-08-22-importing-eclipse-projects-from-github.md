@@ -5,9 +5,17 @@ title: Importing Eclipse Projects from Github
 categories: general
 ---
 
-**VIDEO AND SCREENSHOTS PENDING**
-
 Follow these steps to import an Eclipse project from your Github repository. These steps assume you have already followed the <a href="{% post_url 2018-08-20-configuring-ssh-keys %}">Configuring SSH Keys</a> and <a href="{% post_url 2018-08-21-java-and-eclipse-setup %}">Java and Eclipse Setup</a> guides.
+
+{% include section.html level="h2" name="Video Walkthrough" %}
+
+<p>This video walkthrough will illustrate this entire process on a Mac OSX system. Alternatively, you can follow the steps in the sections below.</p>
+
+<div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-ZnV6Z7KUwI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <br/>
+  <small><a href="https://youtu.be/-ZnV6Z7KUwI"><i class="fab fa-youtube"></i> https://youtu.be/-ZnV6Z7KUwI</a></small>
+</div>
 
 {% include section.html level="h2" name="Import Repository into Eclipse" %}
 

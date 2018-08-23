@@ -1,1 +1,1 @@
-<p><a href="{{ include.image | prepend: "/images/" | relative_url }}" target="_blank"><img src="{{ include.image | prepend: "/images/" | relative_url }}" class="screenshot"{% if include.width %} style="max-width: {{ include.width }};"{% endif %}></a></p>
+<p><a href="{{ include.image | prepend: "/images/" | relative_url }}" target="_blank"><img src="{{ include.image | prepend: "/images/" | relative_url }}" class="screenshot"{% if include.zoom %} style="zoom: {{ include.zoom }};"{% endif %}></a></p>

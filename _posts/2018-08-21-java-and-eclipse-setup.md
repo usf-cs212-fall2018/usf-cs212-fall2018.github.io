@@ -38,7 +38,7 @@ Note that `$` above indicates the command prompt, and the lines below that are t
 
 {% include section.html level="h2" name="Install Eclipse Photon" %}
 
-{% include screenshot.html image="eclipse-about-ide.png" %}
+{% include screenshot.html image="eclipse-about-ide.png" zoom="75%" %}
 
 You need to make sure you have the latest **Eclipse IDE for Java Developers** package for **Eclipse Photon (v4.8)**. The direct download link is:
 
@@ -68,15 +68,15 @@ Eclipse is a free, powerful, open-source, and configurable IDE. I recommend you 
 
   - Change the fonts used in the editor ([reference](http://help.eclipse.org/photon/topic/org.eclipse.platform.doc.user/tasks/tasks-20.htm)). You can find several options on [Google Fonts](https://fonts.google.com/?category=Monospace). My favorites are [Source Code Pro Light](https://fonts.google.com/specimen/Source+Code+Pro), [Roboto Mono Light](https://fonts.google.com/specimen/Roboto+Mono), [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro), and [Incosolata](https://fonts.google.com/specimen/Inconsolata). There are many fans of the customizable [Input](http://input.fontbureau.com/) font as well.
 
-    {% include screenshot.html image="eclipse-colors-and-fonts.png" %}
+    {% include screenshot.html image="eclipse-colors-and-fonts.png" zoom="50%" %}
 
   - Change your save actions ([reference](http://help.eclipse.org/photon/topic/org.eclipse.jdt.doc.user/reference/preferences/java/editor/ref-preferences-save-actions.htm)). I usually remove unused imports and fix indentation at least.
 
-    {% include screenshot.html image="eclipse-additional-save-actions.png" %}
+    {% include screenshot.html image="eclipse-additional-save-actions.png" zoom="50%" %}
 
   - Change the code formatter ([reference](http://help.eclipse.org/photon/topic/org.eclipse.jdt.doc.user/reference/preferences/java/codestyle/ref-preferences-formatter.htm)). You can set the brace style, where newlines and spaces are used, and fix how Eclipse formats try-with-resources code blocks.
 
-    {% include screenshot.html image="eclipse-java-code-formatter.png" %}
+    {% include screenshot.html image="eclipse-java-code-formatter.png" zoom="50%" %}
 
   - Customize the autocomplete code templates ([reference](http://help.eclipse.org/photon/topic/org.eclipse.jdt.doc.user/reference/preferences/java/codestyle/ref-preferences-code-templates.htm), [examples](https://stackoverflow.com/questions/1028858/useful-eclipse-java-code-templates)). I usually create one for printf myself.
 

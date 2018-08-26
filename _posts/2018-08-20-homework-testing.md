@@ -29,4 +29,46 @@ It is important you only try to pass one test at a time, because the changes you
 
 {% include section.html level="h2" name="Remote Testing" %}
 
-Pending.
+Once you are passing all of the tests locally, it is time to test your homework remotely. There are two primary steps to this process: [committing and pushing](http://wiki.eclipse.org/EGit/User_Guide#Committing_Changes) your changes to Github, and then logging into a CS Lab computer and running the `homework` script.
+
+After you have updated your remote Github repository, [login to a CS lab computer]({% post_url 2018-08-18-using-cs-lab-computers %}) and run the following command from a terminal:
+
+```
+/home/public/cs212/homework GitUser HomeworkName
+```
+
+Replace `GitUser` with your GitHub username and `HomeworkName` with the name of the homework you want to test. For example:
+
+```
+/home/public/cs212/homework sjengle ArgumentMap
+```
+
+This script will clone your remote Github repository, fetch fresh test code (in case you changed anything) from the template repository, compile the Java code, and then run all of the JUnit tests and report how many tests passed or failed. This script is used for grading homework.
+
+If you want the detailed output of running the tests, you can add the `-r` flag to the command. This will generate a file in your home directory named `cs212-GitUser-HomeworkName.txt` when any tests fail. You can [download the file](https://www.cs.usfca.edu/support.html#ftp) to your own system if you do not want to try and read the file on the lab computers.
+
+{% include section.html level="h2" name="Bonus: Aliases" %}
+
+You will be doing this quite a bit, so I recommend making an alias. To do this, open the `~/.bashrc` file on a lab computer and add the following line:
+
+```
+alias hw="/home/public/cs212/homework GitUser"
+```
+
+Replace `GitUser` with your GitHub username. Run `source ~/.bashrc` for the command to take affect.
+
+If you are uncomfortable with editing a file via the command line, you can run this command on a lab computer to do it for you:
+
+```
+echo 'alias hw="/home/public/cs212/homework GitUser"' >> ~/.bashrc; source ~/.bashrc
+```
+
+Then, you can test homework using the following command on the lab computers:
+
+```
+hw HomeworkName
+```
+
+Replace `HomeworkName` with the name of the homework you want to test. The alias will still work with the `-r` flag as well!
+
+You only need to set the alias once. Every time you login again, the `.bashrc` file will re-add that alias for you.

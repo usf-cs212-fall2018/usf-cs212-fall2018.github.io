@@ -51,6 +51,9 @@
   lectures:
     - date: 2018-08-28
       resources:
+      - text: 'Data Structures'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Data%20Structures'
+        icon: 'far fa-code'
       - text: 'Data Structures - Types'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
         icon: 'far fa-chalkboard-teacher'

@@ -51,10 +51,12 @@
   lectures:
     - date: 2018-08-28
       resources:
-      - text: 'Data Structures'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'Data Structures - Types'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Data Structures - Framework'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
+        icon: 'far fa-chalkboard-teacher'
       - text: 'Project 1'
         link: false
         icon: 'far fa-project-diagram'

@@ -1,14 +1,11 @@
 ---
-title: Project Guides
+title: Project Testing
 navbar: Guides
 layout: default
+categories: projects
 ---
 
-<ul>
-{% for post in site.categories['project'] reversed %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+Pending
 
 {% include section.html level="h2" name="Video Walkthrough" %}
 

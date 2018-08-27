@@ -72,3 +72,13 @@ hw HomeworkName
 Replace `HomeworkName` with the name of the homework you want to test. The alias will still work with the `-r` flag as well!
 
 You only need to set the alias once. Every time you login again, the `.bashrc` file will re-add that alias for you.
+
+{% include section.html level="h2" name="Video Walkthrough" %}
+
+<p>This video walkthrough will illustrate this entire process on a Mac OSX system.</p>
+
+<div>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QSC1gK6TtSk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <br/>
+  <small><a href="https://youtu.be/QSC1gK6TtSk"><i class="fab fa-youtube"></i> https://youtu.be/QSC1gK6TtSk</a></small>
+</div>

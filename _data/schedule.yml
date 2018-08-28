@@ -360,6 +360,10 @@
         text: 'Due: Piazza Participation 1'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6786309'
         icon: 'far fa-user-friends'
+      - date: false
+        text: 'Due: CS Event Participation 1'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6790468'
+        icon: 'far fa-user-friends'
     - date: 2018-10-11
       resources:
       - text: 'Multithreading'
@@ -721,6 +725,10 @@
         link: false
         icon: 'far fa-calendar-alt'
         type: 'grey'
+      - date: false
+        text: 'Due: CS Event Participation 2'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6790463'
+        icon: 'far fa-user-friends'
   labs:
     resources:
       - text: 'No Labs in Week 16'

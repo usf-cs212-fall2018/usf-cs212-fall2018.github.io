@@ -291,7 +291,7 @@
   labs:
     resources:
       - text: 'Project 1'
-        link: ''https://usf-cs212-fall2018.github.io/guides/project-1.html''
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
       - text: 'Project 2'
         link: false

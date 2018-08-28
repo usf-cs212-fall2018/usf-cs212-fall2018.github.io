@@ -2,7 +2,7 @@
 title: Project Testing
 navbar: Guides
 layout: default
-categories: projects
+categories: project
 ---
 
 Pending

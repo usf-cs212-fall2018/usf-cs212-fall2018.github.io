@@ -10,6 +10,12 @@ layout: default
 {% endfor %}
 </ul>
 
+<ul>
+{% for post in site.categories['writeups'] reversed %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
 {% include section.html level="h2" name="Video Walkthrough" %}
 
 <p>This video walkthrough will illustrate this entire process on a Mac OSX system.</p>

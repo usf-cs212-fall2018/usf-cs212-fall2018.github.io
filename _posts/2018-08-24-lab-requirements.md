@@ -25,7 +25,7 @@ You are *strongly encouraged* to attend every lab session in-person when possibl
 
   1. Sign in with the teacher assistant when you arrive to your lab session.
 
-  2. Enter the date you attended in the appropriate "Lab Attendance" assignment in Canvas.
+  2. ~~Enter the date you attended in the appropriate "Lab Attendance" assignment in Canvas.~~
 
 You only need to do this until you earn 5 points of participation credit. You do not need to do this for the remaining times you attend lab sessions, or weeks you attend a code review instead of lab.
 

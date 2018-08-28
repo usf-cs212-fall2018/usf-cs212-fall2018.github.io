@@ -37,7 +37,7 @@ You only need to do this until you earn 5 points of participation credit. You do
 
 ### Requirements
 
-To earn lab credit, you must make at least 3 non-trivial commits (not including your first "trivial" commit to mark the start of lab) on homework or project over the course of an hour. This is essentially 1 commit per every 20 minutes. The commits can include adding comments to your code, working on functionality, and/or refactoring your code.
+To earn lab credit, you must make at least 3 non-trivial commits (not including your first "trivial" commit to mark the start of lab) in a **lab-specific branch** of a homework or project over the course of an hour. This is essentially 1 commit per every 20 minutes. The commits can include adding comments to your code, working on functionality, and/or refactoring your code.
 
 Ideally, this coding hour should occur during your assigned lab session. However, this is not a strict requirement (especially if you plan to attend a code review during lab instead). Your coding hour may occur _after_ your previous lab session and before the end of the current lab session.
 

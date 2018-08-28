@@ -61,9 +61,8 @@
         link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
         icon: 'far fa-chalkboard-teacher'
       - text: 'Project 1'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
         bump: true
       deadlines:
       - date: 2018-08-27
@@ -94,9 +93,8 @@
   labs:
     resources:
       - text: 'Project 1'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'ArgumentMap'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779414'
         icon: 'far fa-file-code'
@@ -143,9 +141,8 @@
   labs:
     resources:
       - text: 'Project 1'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'WordIndex'
         link: false
         icon: 'far fa-file-code'
@@ -192,9 +189,8 @@
   labs:
     resources:
       - text: 'Project 1'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'JSONWriter'
         link: false
         icon: 'far fa-file-code'
@@ -225,7 +221,7 @@
       deadlines:
       - date: false
         text: 'Project 1 Checkpoint'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
         type: 'info'
     - date: 2018-09-20
@@ -247,9 +243,8 @@
   labs:
     resources:
       - text: 'Project 1'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'Project 2'
         link: false
         icon: 'far fa-project-diagram'
@@ -296,9 +291,8 @@
   labs:
     resources:
       - text: 'Project 1'
-        link: false
+        link: ''https://usf-cs212-fall2018.github.io/guides/project-1.html''
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'Project 2'
         link: false
         icon: 'far fa-project-diagram'

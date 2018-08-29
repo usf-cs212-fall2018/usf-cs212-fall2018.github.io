@@ -108,9 +108,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 02 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779468'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 3
   lectures:
     - date: 2018-09-04
@@ -158,9 +157,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 03 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782015'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 4
   lectures:
     - date: 2018-09-11
@@ -206,9 +204,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 04 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782019'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 5
   lectures:
     - date: 2018-09-18
@@ -264,9 +261,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 05 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782020'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 6
   lectures:
     - date: 2018-09-25
@@ -312,9 +308,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 06 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782021'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 7
   lectures:
     - date: 2018-10-02
@@ -396,9 +391,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 08 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782032'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 9
   lectures:
     - date: 2018-10-16
@@ -485,9 +479,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 10 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782034'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 11
   lectures:
     - date: 2018-10-30
@@ -554,9 +547,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 11 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782035'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 12
   lectures:
     - date: 2018-11-06
@@ -602,9 +594,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 12 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782036'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 13
   lectures:
     - date: 2018-11-13
@@ -646,9 +637,8 @@
     deadlines:
       - date: false
         text: 'Due: Week 13 Lab'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6782037'
         icon: 'far fa-laptop-code'
-        type: 'grey'
 - week: 14
   lectures:
     - date: 2018-11-20

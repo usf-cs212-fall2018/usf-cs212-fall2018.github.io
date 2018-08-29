@@ -60,6 +60,13 @@
       - text: 'Data Structures - Framework'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
         icon: 'far fa-chalkboard-teacher'
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/hiT0Eh1jrXo-wjlze6smQGw45Th90fPGHbmI-1d2exuwIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/qcyEHjEX9EpwsJbFTFcvA8UBt5XP-CU2e788ptN9ALGwIumekTziMw'
       - text: 'Project 1'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'

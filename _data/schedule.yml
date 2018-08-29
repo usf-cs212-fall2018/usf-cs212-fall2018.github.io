@@ -721,7 +721,7 @@
         link: false
         icon: 'far fa-calendar-alt'
         type: 'grey'
-      - date: false
+      - date: 2018-12-07
         text: 'Due: CS Event Participation 2'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6790463'
         icon: 'far fa-user-friends'

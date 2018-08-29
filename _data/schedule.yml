@@ -79,18 +79,16 @@
         type: 'grey'
     - date: 2018-08-30
       resources:
-      - text: 'Iteration'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-      - text: 'Search'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'Data Structures'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Data%20Structures'
+        icon: 'far fa-code'
+      - text: 'Quiz: Data Structures'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330327'
+        icon: 'far fa-edit'
+        bump: true
       - text: 'WordIndex'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
         icon: 'far fa-file-code'
-        bump: true
       deadlines:
       - date: false
         text: 'Due: ArgumentMap'
@@ -137,6 +135,9 @@
         text: 'Due: WordIndex'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
         icon: 'far fa-file-code'
+      - text: 'Due: Data Structures'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330327'
+        icon: 'far fa-edit'
       - date: 2018-09-07
         text: 'Drop Deadline'
         link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'

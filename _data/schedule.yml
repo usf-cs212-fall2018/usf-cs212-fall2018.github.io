@@ -81,9 +81,8 @@
         icon: 'far fa-question-circle'
         type: 'grey'
       - text: 'WordIndex'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
         icon: 'far fa-file-code'
-        type: 'grey'
         bump: true
       deadlines:
       - date: false
@@ -99,9 +98,8 @@
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779414'
         icon: 'far fa-file-code'
       - text: 'WordIndex'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
         icon: 'far fa-file-code'
-        type: 'grey'
     deadlines:
       - date: false
         text: 'Due: Week 02 Lab'
@@ -130,9 +128,8 @@
       deadlines:
       - date: false
         text: 'Due: WordIndex'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
         icon: 'far fa-file-code'
-        type: 'grey'
       - date: 2018-09-07
         text: 'Drop Deadline'
         link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
@@ -144,9 +141,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
       - text: 'WordIndex'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
         icon: 'far fa-file-code'
-        type: 'grey'
       - text: 'JSONWriter'
         link: false
         icon: 'far fa-file-code'

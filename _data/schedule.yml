@@ -114,10 +114,9 @@
   lectures:
     - date: 2018-09-04
       resources:
-      - text: 'Object Oriented Programming'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'OOP Terminology'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
+        icon: 'far fa-chalkboard-teacher'
     - date: 2018-09-06
       resources:
       - text: 'Object Oriented Programming'

@@ -23,7 +23,13 @@ To receive credit for your coding hour, you must follow the steps below:
 
   8. Click the "[New pull request](https://help.github.com/articles/creating-a-pull-request/)" button next to your lab branch. The base branch should be `master` and your `lab##` branch should be in the "compare" dropdown. Enter "End of lab" as the message and click the "Create pull request" button when done.
 
-  9. If all went well, you should now see a "Merge pull request" <i class="far fa-code-merge"></i> button. Click that button to finalize the merge of your lab changes into your `master` branch. It will also give you the option of deleting the `lab02` branch. That is up to you---we will still see the commits you made on the pull request even after your branch is deleted.
+  9. If all went well, you should now see a "Merge pull request" <i class="far fa-code-merge"></i> button. Click that button to finalize the merge of your lab changes into your `master` branch.
+
+      <article class="message is-warning">
+        <div class="message-body">
+          <i class="fas fa-exclamation-triangle"></i>&nbsp;After merging, Github will also give you the option of deleting the `lab##` branch. Please, <strong>DO NOT DELETE</strong> the branch. We need it for grading purposes.
+        </div>
+      </article>
 
   10. Copy and paste the link to your pull request into Canvas to earn lab credit. From here, we'll be able to see all of your lab-related commits.
 

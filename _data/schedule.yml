@@ -82,6 +82,13 @@
       - text: 'Data Structures'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Data%20Structures'
         icon: 'far fa-code'
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/nlQ1ovmqQp2FPIzfHhYj67FAW08f222SMN4o9pXhbhOwIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/MOJLE2igoeAxa9ZiyCe-18cKw-_4vo2uLW4zQjzbzsSwIumekTziMw'
       - text: 'Quiz: Data Structures'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330327'
         icon: 'far fa-edit'

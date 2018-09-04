@@ -124,12 +124,14 @@
       - text: 'OOP Terminology'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
         icon: 'far fa-chalkboard-teacher'
+      - text: 'Object Oriented Programming'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
+        icon: 'far fa-code'        
     - date: 2018-09-06
       resources:
       - text: 'Object Oriented Programming'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
+        icon: 'far fa-code'
       - text: 'JSONWriter'
         link: false
         icon: 'far fa-file-code'

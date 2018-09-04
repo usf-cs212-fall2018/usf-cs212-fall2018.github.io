@@ -126,16 +126,15 @@
         icon: 'far fa-chalkboard-teacher'
       - text: 'Object Oriented Programming'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
-        icon: 'far fa-code'        
+        icon: 'far fa-code'
     - date: 2018-09-06
       resources:
       - text: 'Object Oriented Programming'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
         icon: 'far fa-code'
-      - text: 'JSONWriter'
-        link: false
+      - text: 'TreeJSONWriter'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
         icon: 'far fa-file-code'
-        type: 'grey'
         bump: true
       deadlines:
       - date: false
@@ -158,10 +157,9 @@
       - text: 'WordIndex'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
         icon: 'far fa-file-code'
-      - text: 'JSONWriter'
-        link: false
+      - text: 'TreeJSONWriter'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
         icon: 'far fa-file-code'
-        type: 'grey'
     deadlines:
       - date: false
         text: 'Due: Week 03 Lab'
@@ -192,19 +190,17 @@
         bump: true
       deadlines:
       - date: false
-        text: 'Due: JSONWriter'
-        link: false
+        text: 'Due: TreeJSONWriter'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
         icon: 'far fa-file-code'
-        type: 'grey'
   labs:
     resources:
       - text: 'Project 1'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
-      - text: 'JSONWriter'
-        link: false
+      - text: 'TreeJSONWriter'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
         icon: 'far fa-file-code'
-        type: 'grey'
       - text: 'FileStemmer'
         link: false
         icon: 'far fa-file-code'

@@ -127,6 +127,13 @@
       - text: 'Object Oriented Programming'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
         icon: 'far fa-code'
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/LDFn5lvOQP7cTs0ZWC91gfR8q-06rQ8FXJSsOBGyf5GwIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/lrzHS40BQ9Y-A3wNl1bn9Kn2vfXaBzZWuANJAyRl22OwIumekTziMw'
     - date: 2018-09-06
       resources:
       - text: 'Object Oriented Programming'

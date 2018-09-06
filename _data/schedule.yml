@@ -203,10 +203,9 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      - text: 'FileStemmer'
-        link: false
+      - text: 'TextFileStemmer'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'
-        type: 'grey'
         bump: true
       deadlines:
       - date: false
@@ -221,10 +220,9 @@
       - text: 'TreeJSONWriter'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
         icon: 'far fa-file-code'
-      - text: 'FileStemmer'
-        link: false
+      - text: 'TextFileStemmer'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'
-        type: 'grey'
     deadlines:
       - date: false
         text: 'Due: Week 04 Lab'
@@ -261,10 +259,9 @@
         type: 'grey'
         bump: true
       deadlines:
-      - text: 'Due: FileStemmer'
-        link: false
+      - text: 'Due: TextFileStemmer'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'
-        type: 'grey'
   labs:
     resources:
       - text: 'Project 1'
@@ -274,10 +271,9 @@
         link: false
         icon: 'far fa-project-diagram'
         type: 'grey'
-      - text: 'FileStemmer'
-        link: false
+      - text: 'TextFileStemmer'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'
-        type: 'grey'
       - text: 'MovieSorter'
         link: false
         icon: 'far fa-file-code'

@@ -37,7 +37,40 @@ On a Windows system, the path separators `/` should be `\` instead.
 
 {% include section.html level="h2" name="Testing Locally" %}
 
-Pending
+You should make sure you are passing the [JUnit 5](https://junit.org/junit5/) tests locally before testing your code remotely. I also recommend you run only one test at a time at first, then groups of tests, and then the entire suite of tests only after you know you are passing each group individually. You can do this by right-clicking a test name or test class, and selecting "Run As" &raquo; "JUnit Test" from the menu. You can also manually configure the run configuration as well:
+
+{% include screenshot.html image="project-eclipse-junit-run-configuration.png" zoom="50%" %}
+
+The output of each test provides additional information useful for debugging. For example:
+
+{% include screenshot.html image="project-eclipse-junit-output.png" zoom="50%" %}
+
+The full output, which can be copied to the console for easy copying/pasting using the <img src="{{ "eclipse-copy-junit-output-to-console.png" | prepend: "/images/" | relative_url }}" style="height: 16px; vertical-align: middle;"> button, includes the following text:
+
+```
+Actual File:
+    out/index-text-simple-hello.json
+Expected File:
+    expected/index-text/index-text-simple-hello.json
+Arguments:
+    -path text/simple/hello.txt -index out/index-text-simple-hello.json
+Message:
+    Difference detected on line: 2.
+```
+
+This gives the actual arguments passed to `Driver` by the test, the actual and expected files being compared, and where the first difference was detected. You can use the [Compare Editor](http://help.eclipse.org/photon/topic/org.eclipse.platform.doc.user/reference/ref-25.htm?cp=0_4_4_1_2) in Eclipse to compare the files side-by-side for debugging, or use the [Run Configurations](#-run-configurations) in Eclipse to enter the same arguments manually. Just keep in mind the paths need to be updated slightly since your `Driver` class is in a different folder than the project test code. So, for the above example, the appropriate command-line arguments to enter into the `Driver` run configuration would be:
+
+```
+-path ../project-tests/text/simple/hello.txt -index out/index-text-simple-hello.json
+```
+
+Then, the `index-text-simple-hello.json` will (hopefully) show up in the `out` subdirectory of your project repository.
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;To save space, the tests automatically delete your output files if they match the expected output. Only output files for failing tests will be kept.
+  </div>
+</article>
 
 {% include section.html level="h2" name="Testing Remotely" %}
 

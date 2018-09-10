@@ -74,7 +74,44 @@ Then, the `index-text-simple-hello.json` will (hopefully) show up in the `out` s
 
 {% include section.html level="h2" name="Testing Remotely" %}
 
-Pending
+You must test your code remotely before you can earn credit for the functionality of your project and before you can sign up for a code review appointment.
+
+This is a two part process: first you must create a release, and second you must run the project script on the CS Lab computers. This process familiarizes you with [**versioning**](https://en.wikipedia.org/wiki/Software_versioning) your code. At this stage, your code will be considered [pre-release](https://en.wikipedia.org/wiki/Software_versioning#Pre-release_versions) versions until you pass the design requirements in code review.
+
+1. After passing all of the tests locally and pushing your latest commits to Github, follow the [Creating Releases](https://help.github.com/articles/creating-releases/) steps to draft a new release of your project code on Github.
+
+2. You must choose a "tag" or the version number you are going to assign to your code at this stage. Out in the "real world" you will likely use [semantic versioning](https://semver.org/), which we will roughly mimic in class.
+
+    Specifically, you must name your release `v#.#.#` where the first `#` is the project number (1, 2, 3, or 4), the second `#` is the number of code reviews you've had, and the last `#` is the number of releases you have created since the last code review.
+
+    For example, your first release should be `v1.0.0` because it is for project 1, you have not had any code reviews yet, and you have not had any releases yet. If your code does not pass the tests remotely, then you have to fix your code and re-release your project as `v1.0.1` since you now have 1 prior release. After your first code review, the next release will be `v1.1.0`. The release `v2.3.4` means this release is for project 2, you have had 3 code reviews so far, and this is the 4th release since your last code review.
+
+    <p><article class="message is-info">
+      <div class="message-body">
+        <i class="fas fa-info-circle"></i>&nbsp;There is no need to delete a release if you get the name wrong. Instead, <a href="https://help.github.com/articles/editing-and-deleting-releases/">edit the release</a> to have the correct name.
+      </div>
+    </article></p>
+
+3. Make sure the "This is a pre-release" checkbox is selected:
+
+    {% include screenshot.html image="github-pre-release-checkbox.png" zoom="50%" %}
+
+    You will unselect this checkbox for the final release of the project that passes the design requirements in code review.
+
+4. Click the "Publish release" button. You can leave the title and description blank. You can also leave the binaries blank (this is where we would put executables or our own bundled jar files for production-ready releases).
+
+5. Now that you have a release of your code, you can run the `project` script on the [CS lab computers]({% post_url 2018-08-18-using-cs-lab-computers %}) to test your project code remotely using the command:
+
+    ```
+    /home/public/cs212/project GithubUsername v#.#.#
+    ```
+
+    Replace `GithubUsername` with your Github username (not your USF/CS username), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you are ready for project verification and code review! If not, you can view a detailed report of what went wrong in your home directory.
+
+    For example, running the command `project sjengle v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, and run the `Project1Test.java` test suite. It will generate a report file located at `~/cs212-sjengle-project-v1.0.0.txt` with the test results.
+
+
+If everything passes and you want credit for passing the functionality, follow the [project verification]({% post_url 2018-08-26-project-functionality %}) steps to notify the teacher assistant.
 
 {% include section.html level="h2" name="Video Walkthrough" %}
 

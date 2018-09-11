@@ -8,36 +8,36 @@ layout: default
 
 <ul>
 {% for post in site.categories['general'] reversed %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> {% if post.label %}<span class="tag is-primary">{{ post.label }}</span>{% endif %}</li>
 {% endfor %}
 </ul>
 
-<h3>Lab Guides</h3>
+<h3>Lab Guides <small><a href="{{ "/guides/labs.html" | relative_url }}" class="has-text-grey-light"><i class="fal fa-link"></i></a></small></h3>
 
 <ul>
 {% for post in site.categories['labs'] reversed %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> {% if post.label %}<span class="tag is-primary">{{ post.label }}</span>{% endif %}</li>
 {% endfor %}
 </ul>
 
-<h3>Homework Guides</h3>
+<h3>Homework Guides <small><a href="{{ "/guides/homework.html" | relative_url }}" class="has-text-grey-light"><i class="fal fa-link"></i></a></small></h3>
 
 <ul>
 {% for post in site.categories['homework'] reversed %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> {% if post.label %}<span class="tag is-primary">{{ post.label }}</span>{% endif %}</li>
 {% endfor %}
 </ul>
 
-<h3>Project Guides</h3>
+<h3>Project Guides <small><a href="{{ "/guides/projects.html" | relative_url }}" class="has-text-grey-light"><i class="fal fa-link"></i></a></small></h3>
 
 <ul>
 {% for post in site.categories['project'] reversed %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> {% if post.label %}<span class="tag is-primary">{{ post.label }}</span>{% endif %}</li>
 {% endfor %}
 </ul>
 
 <ul>
 {% for post in site.categories['writeups'] reversed %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> {% if post.label %}<span class="tag is-primary">{{ post.label }}</span>{% endif %}</li>
 {% endfor %}
 </ul>

@@ -98,7 +98,7 @@ This is a two part process: first you must create a release, and second you must
 
     You will unselect this checkbox for the final release of the project that passes the design requirements in code review.
 
-4. Click the "Publish release" button. You can leave the title and description blank. You can also leave the binaries blank (this is where we would put executables or our own bundled jar files for production-ready releases).
+4. Click the "Publish release" button. You can leave the title and description blank. You can also leave the binaries blank (this is where we would put executables or our own bundled jar files for production-ready releases). You can see a [sample release](https://github.com/usf-cs212-fall2018/template-project/releases/tag/v1.0.0) on the template repository.
 
 5. Now that you have a release of your code, you can run the `project` script on the [CS lab computers]({% post_url 2018-08-18-using-cs-lab-computers %}) to test your project code remotely using the command:
 

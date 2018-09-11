@@ -3,6 +3,7 @@ title: Project Testing
 navbar: Guides
 layout: default
 categories: project
+label: Updated 9/10
 ---
 
 You must use the [JUnit 5](https://junit.org/junit5/) tests provided with the [project-tests](https://github.com/usf-cs212-fall2018/project-tests) repository to determine if your project is meeting the required functionality. The suite of tests for each project are given by the `Project#Test.java` files in the [src](https://github.com/usf-cs212-fall2018/project-tests/tree/master/src) subdirectory. For example, the tests for [Project 1]({% post_url 2018-08-27-project-1 %}) are provided by the [Project1Test.java](https://github.com/usf-cs212-fall2018/project-tests/blob/master/src/Project1Test.java) file.

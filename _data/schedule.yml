@@ -220,11 +220,14 @@
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
         icon: 'far fa-chalkboard-teacher'
       - text: 'Quiz: Final Keyword'
-        link: 'https://usfca.instructure.com/courses/1579367/assignments/6792485'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330518'
         icon: 'far fa-edit'
         bump: true
       - text: 'Quiz: Collections Revisited'
-        link: 'https://usfca.instructure.com/courses/1579367/assignments/6792495'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330541'
+        icon: 'far fa-edit'
+      - text: 'Quiz: Casting'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330556'
         icon: 'far fa-edit'
     - date: 2018-09-13
       resources:
@@ -289,10 +292,13 @@
         bump: true
       deadlines:
       - text: 'Due: Final Keyword'
-        link: 'https://usfca.instructure.com/courses/1579367/assignments/6792485'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330518'
         icon: 'far fa-edit'
       - text: 'Due: Collections Revisited'
-        link: 'https://usfca.instructure.com/courses/1579367/assignments/6792495'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330541'
+        icon: 'far fa-edit'
+      - text: 'Due: Casting'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330556'
         icon: 'far fa-edit'
       - date: false
         text: 'Project 1 Checkpoint'

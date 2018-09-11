@@ -202,10 +202,13 @@
       - text: 'Project Functionality'
         link: '/guides/project-functionality.html'
         icon: 'far fa-atlas'
+      - text: 'Inheritance'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
+        icon: 'far fa-code'
+        bump: true
       - text: 'Introduction to Inheritance'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
         icon: 'far fa-chalkboard-teacher'
-        bump: true
       - text: 'Object Revisited'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
         icon: 'far fa-chalkboard-teacher'
@@ -231,6 +234,9 @@
         icon: 'far fa-edit'
     - date: 2018-09-13
       resources:
+      - text: 'Inheritance'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
+        icon: 'far fa-code'
       - text: 'Casting'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
         icon: 'far fa-chalkboard-teacher'
@@ -282,9 +288,8 @@
     - date: 2018-09-18
       resources:
       - text: 'Inheritance'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
+        icon: 'far fa-code'
       - text: 'Project 2'
         link: false
         icon: 'far fa-project-diagram'

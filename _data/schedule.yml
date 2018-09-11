@@ -196,17 +196,20 @@
   lectures:
     - date: 2018-09-11
       resources:
-      - text: 'Object Oriented Programming'
+      - text: 'Project Testing'
+        link: '/guides/project-testing.html'
+        icon: 'far fa-atlas'
+      - text: 'Project Functionality'
+        link: '/guides/project-functionality.html'
+        icon: 'far fa-atlas'
+      - text: 'Inheritance'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+        bump: true
     - date: 2018-09-13
       resources:
-      - text: 'Streams'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-      - text: 'Lambda Expressions'
+      - text: 'Inheritance'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
@@ -256,7 +259,11 @@
         type: 'info'
     - date: 2018-09-20
       resources:
-      - text: 'Inheritance'
+      - text: 'Streams'
+        link: false
+        icon: 'far fa-question-circle'
+        type: 'grey'
+      - text: 'Lambda Expressions'
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'

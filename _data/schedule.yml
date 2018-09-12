@@ -253,6 +253,10 @@
       - text: 'Generics'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
         icon: 'far fa-chalkboard-teacher'
+      - text: 'Quiz: Inheritance Terminology'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330549'
+        icon: 'far fa-edit'
+        bump: true
       - text: 'TextFileStemmer'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'
@@ -333,6 +337,9 @@
         type: 'grey'
         bump: true
       deadlines:
+      - text: 'Due: Inheritance Terminology'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330549'
+        icon: 'far fa-edit'
       - text: 'Due: TextFileStemmer'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'

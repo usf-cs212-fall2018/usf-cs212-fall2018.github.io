@@ -3,7 +3,6 @@ title: Project Functionality
 navbar: Guides
 layout: default
 categories: project
-label: Updated 9/10
 ---
 
 Each project grade is split into two components: functionality and design. This guide details the process for verifying and grading the functionality of your projects. You should only go through this process if:

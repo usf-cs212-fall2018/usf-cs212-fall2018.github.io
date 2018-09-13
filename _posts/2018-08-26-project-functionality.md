@@ -38,7 +38,7 @@ If all of the above is true, then you can request verification from a teacher as
 
   2. Enter the title `Project v#` where `v#` is the release number to verify. This is the only way we can tell which release you want verified and code reviewed.
 
-  3. If this is the first time you have passed the tests remotely, ask for your functionality grade in Canvas to be updated in the issue description.
+  3. If this is the first time you have passed the tests remotely, ask for your functionality grade in Canvas to be updated in the issue description. **Please provide your full name in your request, so we can match your work on Github to the correct account on Canvas.**
 
   4. On the side under "Assignees", add the teacher assistant Olivia Kumar (`oliviakumar` is her username). She will process your verification requests.
 

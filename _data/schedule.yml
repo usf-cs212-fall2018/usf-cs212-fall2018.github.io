@@ -302,9 +302,8 @@
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
         icon: 'far fa-code'
       - text: 'Project 2'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
         bump: true
       deadlines:
       - text: 'Due: Final Keyword'
@@ -349,9 +348,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
       - text: 'Project 2'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'TextFileStemmer'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'
@@ -395,9 +393,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
         icon: 'far fa-project-diagram'
       - text: 'Project 2'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'MovieSorter'
         link: false
         icon: 'far fa-file-code'
@@ -453,7 +450,7 @@
       deadlines:
       - date: false
         text: 'Project 2 Checkpoint'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
         type: 'info'
       - date: false
@@ -478,9 +475,8 @@
   labs:
     resources:
       - text: 'Project 2'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'Project 3'
         link: false
         icon: 'far fa-project-diagram'
@@ -562,9 +558,8 @@
   labs:
     resources:
       - text: 'Project 2'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'Project 3'
         link: false
         icon: 'far fa-project-diagram'

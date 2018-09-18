@@ -343,9 +343,8 @@
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
         icon: 'far fa-code'
       - text: 'MovieSorter'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
         icon: 'far fa-file-code'
-        type: 'grey'
         bump: true
       deadlines:
       - text: 'Due: Inheritance Terminology'
@@ -366,9 +365,8 @@
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
         icon: 'far fa-file-code'
       - text: 'MovieSorter'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
         icon: 'far fa-file-code'
-        type: 'grey'
     deadlines:
       - date: false
         text: 'Due: Week 05 Lab'
@@ -400,9 +398,8 @@
       deadlines:
       - date: false
         text: 'Due: MovieSorter'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
         icon: 'far fa-file-code'
-        type: 'grey'
   labs:
     resources:
       - text: 'Project 1'
@@ -412,9 +409,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
       - text: 'MovieSorter'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
         icon: 'far fa-file-code'
-        type: 'grey'
       - text: 'LoggerSetup'
         link: false
         icon: 'far fa-file-code'

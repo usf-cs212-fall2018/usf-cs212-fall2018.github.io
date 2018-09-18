@@ -318,6 +318,10 @@
       - text: 'Lambda Expressions'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
         icon: 'fa fa-code'
+      - text: 'Quiz: Lambda Expressions'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330833'
+        icon: 'fa fa-edit'
+        bump: true
       deadlines:
       - text: 'Due: Final Keyword'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330518'
@@ -378,6 +382,10 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      deadlines:
+      - text: 'Due: Lambda Expressions'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330833'
+        icon: 'fa fa-edit'
     - date: 2018-09-27
       resources:
       - text: 'Logging'

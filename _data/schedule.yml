@@ -305,13 +305,19 @@
   lectures:
     - date: 2018-09-18
       resources:
-      - text: 'Inheritance'
-        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
-        icon: 'far fa-code'
       - text: 'Project 2'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
+      - text: 'Java Versions'
+        link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
+        icon: 'far fa-chalkboard-teacher'
         bump: true
+      - text: 'Lambda Expressions'
+        link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Lambda Expressions'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
+        icon: 'fa fa-code'
       deadlines:
       - text: 'Due: Final Keyword'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330518'
@@ -330,13 +336,8 @@
     - date: 2018-09-20
       resources:
       - text: 'Streams'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
-      - text: 'Lambda Expressions'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
+        icon: 'fa fa-code'
       - text: 'MovieSorter'
         link: false
         icon: 'far fa-file-code'

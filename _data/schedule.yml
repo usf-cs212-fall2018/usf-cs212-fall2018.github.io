@@ -359,6 +359,13 @@
       - text: 'Streams'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
         icon: 'far fa-code'
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/qEOw2ELqIwWQij_RjaGtcYL0dyQAcTU5xgWJDVZtqd-wIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/-wD1RqPrOWfSeP4ZooLwgZpdGjXl9YZSGGX7JxIeCMiwIumekTziMw'
       deadlines:
       - text: 'Due: Inheritance Terminology'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330549'
@@ -389,20 +396,32 @@
   lectures:
     - date: 2018-09-25
       resources:
-      - text: 'Testing'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'Testing - Motivation'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Testing - Approaches'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Debugging'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Debugging'
+        icon: 'far fa-code'
+        bump: true
       deadlines:
       - text: 'Due: Lambda Expressions'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330833'
         icon: 'far fa-edit'
     - date: 2018-09-27
       resources:
-      - text: 'Logging'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'Debugging - Assertions'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Debugging - Logging'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Debugging'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Debugging'
+        icon: 'far fa-code'
+        bump: true
       - text: 'LoggerSetup'
         link: false
         icon: 'far fa-file-alt'

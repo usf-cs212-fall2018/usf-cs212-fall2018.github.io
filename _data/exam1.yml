@@ -1,0 +1,67 @@
+- week: 4
+  topics:
+    - name: 'Inheritance'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
+  videos:
+    - sect: 1
+      tues: 'https://usfca.zoom.us/recording/share/IHn-Hj3K4Z86SH_ymVFfEPvpdOZJhj9X4xJFt8xd2yGwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/YAFR_5iQFr3ahGP5Hl1szOQsa9XU6IOQtkok79-bMg6wIumekTziMw'
+    - sect: 2
+      tues: 'https://usfca.zoom.us/recording/share/MmVkG6dY6HQbIIvGEmgPSb-7bSLbt_qxcmG8dN8_O52wIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/dQ9xT4OdirOSppWpyOm0E9wzZjRgtIzlORojEPWTHfuwIumekTziMw'
+  slides:
+    - name: 'Introduction'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
+    - name: 'Object Revisited'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
+    - name: 'Final Keyword'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
+    - name: 'Abstract Classes and Interfaces'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
+    - name: 'Collections Revisited'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
+    - name: 'Casting'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
+    - name: 'Nested Classes'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
+    - name: 'Generics'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
+  quizzes:
+    - name: 'Final Keyword'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330518'
+    - name: 'Collections Revisited'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330541'
+    - name: 'Casting'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330556'
+    - name: 'Terminology'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330549'
+  homework:
+    - name: 'TextFileStemmer'
+      link: 'https://github.com/usf-cs212-fall2018/template-textfilestemmer'
+- week: 5
+  topics:
+    - name: 'Lambda Expressions and Streams'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
+  videos:
+    - sect: 1
+      tues: 'https://usfca.zoom.us/recording/share/ECgIWlIsU4VH33wFit9xXLXdYIAWBfCW-F6pxmPiJrqwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/qEOw2ELqIwWQij_RjaGtcYL0dyQAcTU5xgWJDVZtqd-wIumekTziMw'
+    - sect: 2
+      tues: 'https://usfca.zoom.us/recording/share/3v0OKK2RkKfSSZ5eh1mUJ8ijIX99k61MJ-lfdJUqlE2wIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/-wD1RqPrOWfSeP4ZooLwgZpdGjXl9YZSGGX7JxIeCMiwIumekTziMw'
+  slides:
+    - name: 'Java Versions'
+      link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
+      drop: true
+    - name: 'Lambda Expressions'
+      link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
+    - name: 'Streams - Introduction'
+      link: 'https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO'
+    - name: 'Streams - Pipelines'
+      link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
+  quizzes:
+    - name: 'Lambda Expressions'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330833'
+  homework:
+    - name: 'MovieSorter'
+      link: 'https://github.com/usf-cs212-fall2018/template-moviesorter'

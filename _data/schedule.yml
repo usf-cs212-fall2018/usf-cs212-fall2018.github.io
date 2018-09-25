@@ -396,9 +396,13 @@
   lectures:
     - date: 2018-09-25
       resources:
+      - text: 'Exam 1 Review'
+        link: '/guides/exam-1.html'
+        icon: 'far fa-atlas'
       - text: 'Testing - Motivation'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
         icon: 'far fa-chalkboard-teacher'
+        bump: true
       - text: 'Testing - Approaches'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
         icon: 'far fa-chalkboard-teacher'

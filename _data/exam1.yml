@@ -1,3 +1,68 @@
+- week: 1
+  topics:
+    - name: 'Project Euler'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/ProjectEuler'
+      drop: true
+    - name: 'Files and Exceptions'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Files%20and%20Exceptions'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/o63li6OzzhzWNjbX071C-erJMOc2YT704MPvmliesGuwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/HL5D8oJwkzNcdMo-jJBKmeQktaY7M2-VLunaSpKa8mY'
+    section2:
+      tues: 'https://usfca.zoom.us/recording/share/Gt-kqWpgWyK0c6PrZHM4IrfMVTO-IzQvrEVzYAX_Ar-wIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/KAx_7v-eTuHLDJsMqHXgUzqaUyvgpbVR5nUztblsWmc'
+  homework:
+    - name: 'ArgumentMap'
+      link: 'https://github.com/usf-cs212-fall2018/template-argumentmap'
+- week: 2
+  topics:
+    - name: 'Data Structures'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Data%20Structures'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/hiT0Eh1jrXo-wjlze6smQGw45Th90fPGHbmI-1d2exuwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/nlQ1ovmqQp2FPIzfHhYj67FAW08f222SMN4o9pXhbhOwIumekTziMw'
+    section2:
+      tues: 'https://usfca.zoom.us/recording/share/qcyEHjEX9EpwsJbFTFcvA8UBt5XP-CU2e788ptN9ALGwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/MOJLE2igoeAxa9ZiyCe-18cKw-_4vo2uLW4zQjzbzsSwIumekTziMw'
+  slides:
+    - name: 'Types'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+    - name: 'Framework'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
+  quizzes:
+    - name: 'Data Structures'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330327'
+  homework:
+    - name: 'WordIndex'
+      link: 'https://github.com/usf-cs212-fall2018/template-wordindex'
+- week: 3
+  topics:
+    - name: 'Object Oriented Programming'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/LDFn5lvOQP7cTs0ZWC91gfR8q-06rQ8FXJSsOBGyf5GwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/x7t_zRut5iKUoC3uk7L8ZJj0PUpJ_6ISr5WX_9uTNHywIumekTziMw'
+    section2:
+      tues: 'https://usfca.zoom.us/recording/share/lrzHS40BQ9Y-A3wNl1bn9Kn2vfXaBzZWuANJAyRl22OwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/p5Z-ST0vBxsYeyInC1r8RjaBL8kPEAPBTRiUcSb990-wIumekTziMw'
+  slides:
+    - name: 'OOP Terminology'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
+  quizzes:
+    - name: 'Instances'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330550'
+    - name: 'Members'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330552'
+    - name: 'Mutability Part 1'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330548'
+    - name: 'Mutability Part 2'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330542'
+  homework:
+    - name: 'TreeJSONWriter'
+      link: 'https://github.com/usf-cs212-fall2018/template-treejsonwriter'
 - week: 4
   topics:
     - name: 'Inheritance'

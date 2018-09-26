@@ -413,6 +413,13 @@
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Debugging'
         icon: 'far fa-code'
         bump: true
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/tbgTIs4A9QcCTResEadVN9l6W3PsZPhLVM4291hNxCuwIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/Yyz2aERG99QbbSkUvKezeArBzEdXKbxhhZ7dMtaOsIOwIumekTziMw'
       - text: 'Quiz: Unit Testing'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330917'
         icon: 'far fa-edit'

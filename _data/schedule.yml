@@ -445,9 +445,8 @@
         icon: 'far fa-edit'
         bump: true
       - text: 'LoggerSetup'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779420'
         icon: 'far fa-file-alt'
-        type: 'grey'
       deadlines:
       - date: false
         text: 'Due: MovieSorter'
@@ -465,9 +464,8 @@
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
         icon: 'far fa-file-code'
       - text: 'LoggerSetup'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779420'
         icon: 'far fa-file-code'
-        type: 'grey'
     deadlines:
       - date: false
         text: 'Due: Week 06 Lab'
@@ -497,9 +495,8 @@
         icon: 'far fa-edit'
       - date: false
         text: 'Due: LoggerSetup'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779420'
         icon: 'far fa-file-code'
-        type: 'grey'
   labs:
     resources:
       - text: 'No Labs in Week 07'

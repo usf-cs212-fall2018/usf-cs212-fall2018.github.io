@@ -483,7 +483,7 @@
     - date: 2018-10-02
       resources:
       - text: 'Exam 1'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331009'
         icon: 'far fa-tasks'
         type: 'danger'
       deadlines:
@@ -493,7 +493,7 @@
     - date: 2018-10-04
       resources:
       - text: 'Exam 1 Retake'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331040'
         icon: 'far fa-tasks'
         type: 'danger'
       deadlines:

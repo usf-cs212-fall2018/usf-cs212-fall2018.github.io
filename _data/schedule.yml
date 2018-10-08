@@ -519,9 +519,8 @@
         icon: 'far fa-question-circle'
         type: 'grey'
       - text: 'Project 3'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
         bump: true
       deadlines:
       - date: false
@@ -554,9 +553,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
       - text: 'Project 3'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'ReadWriteLock'
         link: false
         icon: 'far fa-file-code'
@@ -637,9 +635,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
         icon: 'far fa-project-diagram'
       - text: 'Project 3'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'PrimeFinder'
         link: false
         icon: 'far fa-question-circle'
@@ -669,7 +666,7 @@
       deadlines:
       - date: false
         text: 'Project 3 Checkpoint'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
         type: 'info'
     - date: 2018-11-01
@@ -701,9 +698,8 @@
   labs:
     resources:
       - text: 'Project 3'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'Project 4'
         link: false
         icon: 'far fa-project-diagram'
@@ -748,9 +744,8 @@
   labs:
     resources:
       - text: 'Project 3'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'Project 4'
         link: false
         icon: 'far fa-project-diagram'
@@ -795,9 +790,8 @@
   labs:
     resources:
       - text: 'Project 3'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'Project 4'
         link: false
         icon: 'far fa-project-diagram'

@@ -3,7 +3,6 @@ title: Project Design
 navbar: Guides
 layout: default
 categories: project
-label: Updated 9/12
 ---
 
 We will use 20 minute one-on-one code reviews with the instructor to evaluate your project design. We will be looking for the following when reviewing your code:

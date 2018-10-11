@@ -525,8 +525,15 @@
         icon: 'far fa-chalkboard-teacher'
       - text: 'Multithreading Basics'
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Basics'
-        icon: 'far fa-question-circle'
+        icon: 'far fa-code'
         bump: true
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/T52n4vJUjoHaJErZnStTdTbLW7HgMm0yntFb4qvZ41CwIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/8Gn9cY8Q9IavcZfhhGtgi2NQdpmLSrcqA_HSjHp8X5qwIumekTziMw'
       - text: 'Project 3'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
@@ -551,14 +558,23 @@
         icon: 'far fa-user-friends'
     - date: 2018-10-11
       resources:
-      - text: 'Multithreading'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'Multithreading - Synchronization'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Multithreading - Custom Locks'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Synchronization'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Synchronization'
+        icon: 'far fa-code'
+        bump: true
       - text: 'ReadWriteLock'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779421'
         icon: 'far fa-file-alt'
-        type: 'grey'
+        bump: true
+      - text: 'Quiz: Synchronization'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330559'
+        icon: 'far fa-edit'
         bump: true
   labs:
     resources:
@@ -603,9 +619,12 @@
       deadlines:
       - date: false
         text: 'Due: ReadWriteLock'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779421'
         icon: 'far fa-file-code'
         type: 'grey'
+      - text: 'Due: Synchronization'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330559'
+        icon: 'far fa-edit'
   labs:
     resources:
       - text: 'No Labs in Week 09'

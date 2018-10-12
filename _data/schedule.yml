@@ -568,6 +568,13 @@
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Synchronization'
         icon: 'far fa-code'
         bump: true
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/KuQZINxRYjUqHO7aTJhogTESLii9Mif9DlXVbyNQSLOwIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/j-JIj-MfFPKFVDohMPLveIbNQN8ibHXwd_8NSxOHhw2wIumekTziMw'
       - text: 'ReadWriteLock'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779421'
         icon: 'far fa-file-code'

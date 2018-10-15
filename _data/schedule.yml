@@ -618,9 +618,12 @@
         icon: 'far fa-question-circle'
         type: 'grey'
       - text: 'PrimeFinder'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
         icon: 'far fa-file-code'
-        type: 'grey'
+        bump: true
+      - text: 'Work Queues'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330555'
+        icon: 'far fa-edit'
         bump: true
       deadlines:
       - date: false
@@ -640,11 +643,16 @@
   lectures:
     - date: 2018-10-23
       resources:
-      - text: 'Guest Speaker(s)'
-        link: false
-        icon: 'far fa-user-astronaut'
+      - text: 'CS 212 Alumni Interviews'
+        link: 'https://usfca.instructure.com/courses/1579367/discussion_topics'
+        icon: 'far fa-user-graduate'
         type: 'primary'
       deadlines:
+      - date: false
+        text: 'Due: CS 212 Alumni Interviews'
+        link: 'https://usfca.instructure.com/courses/1579367/discussion_topics'
+        icon: 'far fa-user-graduate'
+        type: 'primary'
       - date: false
         text: 'Sophie @ IEEE VIS'
         link: false
@@ -652,20 +660,34 @@
         type: 'grey'
     - date: 2018-10-25
       resources:
+      - text: 'Multithreading Demo'
+        link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF1gz79T_7SaqTRzcWKAV7CQ'
+        icon: 'fab fa-youtube'
+      - text: 'World Wide Web'
+        link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF2VBZ1DNto-e6lG_zggopxz'
+        icon: 'fab fa-youtube'
       - text: 'Regular Expressions'
         link: false
-        icon: 'far fa-user-astronaut'
+        icon: 'fab fa-youtube'
         type: 'grey'
+      - text: 'Web Basics'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330558'
+        icon: 'far fa-edit'
+        bump: true
+      - text: 'HTTP'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330531'
+        icon: 'far fa-edit'
       - text: 'HTMLCleaner'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
-        type: 'grey'
         bump: true
       deadlines:
+      - text: 'Due: Work Queues'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330555'
+        icon: 'far fa-edit'
       - text: 'Due: PrimeFinder'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
         icon: 'far fa-file-code'
-        type: 'grey'
       - text: 'Sophie @ IEEE VIS'
         link: false
         icon: 'far fa-plane-departure'
@@ -679,13 +701,11 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
       - text: 'PrimeFinder'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
+        icon: 'far fa-file-code'
       - text: 'HTMLCleaner'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
+        icon: 'far fa-file-code'
     deadlines:
       - date: false
         text: 'Due: Week 10 Lab'
@@ -722,10 +742,16 @@
         type: 'grey'
         bump: true
       deadlines:
+      - text: 'Due: Web Basics'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330558'
+        icon: 'far fa-edit'
+      - text: 'Due: HTTP'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330531'
+        icon: 'far fa-edit'
       - text: 'Due: HTMLCleaner'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
-        type: 'grey'
+        bump: true
       - date: 2018-11-01
         text: 'Project Cutoff'
         link: '/syllabus.html#pass-requirements'
@@ -746,9 +772,8 @@
         icon: 'far fa-project-diagram'
         type: 'grey'
       - text: 'HTMLCleaner'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
-        type: 'grey'
       - text: 'LinkParser'
         link: false
         icon: 'far fa-file-code'

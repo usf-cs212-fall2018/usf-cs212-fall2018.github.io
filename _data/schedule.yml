@@ -669,7 +669,7 @@
         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF2VBZ1DNto-e6lG_zggopxz'
         icon: 'fab fa-youtube'
       - text: 'Regular Expressions'
-        link: false
+        link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
         icon: 'fab fa-youtube'
         type: 'grey'
       - text: 'Web Basics'

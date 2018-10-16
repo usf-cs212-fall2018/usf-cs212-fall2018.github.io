@@ -671,6 +671,10 @@
       - text: 'Regular Expressions'
         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
         icon: 'fab fa-youtube'
+      - text: 'Regular Expressions'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Regular%20Expressions'
+        icon: 'far fa-code'
+        bump: true
       - text: 'Web Basics'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330558'
         icon: 'far fa-edit'
@@ -717,9 +721,8 @@
     - date: 2018-10-30
       resources:
       - text: 'Regular Expressions'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Regular%20Expressions'
+        icon: 'far fa-code'
       - text: 'Project 4'
         link: false
         icon: 'far fa-project-diagram'

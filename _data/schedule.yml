@@ -799,6 +799,10 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      deadlines:
+      - text: 'Due: Regex Basics'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330545'
+        icon: 'far fa-edit'
     - date: 2018-11-08
       resources:
       - text: 'Sessions'
@@ -811,9 +815,6 @@
         type: 'grey'
         bump: true
       deadlines:
-      - text: 'Due: Regex Basics'
-        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330545'
-        icon: 'far fa-edit'
       - text: 'Due: LinkParser'
         link: false
         icon: 'far fa-file-code'

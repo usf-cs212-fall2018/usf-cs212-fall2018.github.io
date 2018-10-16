@@ -613,10 +613,12 @@
         icon: 'far fa-edit'
     - date: 2018-10-18
       resources:
-      - text: 'Multithreading'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'The Volatile Keyword'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Thread Pools and Work Queues'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
+        icon: 'far fa-chalkboard-teacher'
       - text: 'PrimeFinder'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
         icon: 'far fa-file-code'

@@ -745,9 +745,8 @@
         icon: 'far fa-question-circle'
         type: 'grey'
       - text: 'LinkParser'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
         icon: 'far fa-file-code'
-        type: 'grey'
         bump: true
       deadlines:
       - text: 'Due: Web Basics'
@@ -756,10 +755,6 @@
       - text: 'Due: HTTP'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330531'
         icon: 'far fa-edit'
-      - text: 'Due: HTMLCleaner'
-        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
-        icon: 'far fa-file-code'
-        bump: true
       - date: 2018-11-01
         text: 'Project Cutoff'
         link: '/syllabus.html#pass-requirements'
@@ -783,9 +778,8 @@
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
       - text: 'LinkParser'
-        link: false
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
         icon: 'far fa-file-code'
-        type: 'grey'
     deadlines:
       - date: false
         text: 'Due: Week 11 Lab'
@@ -815,10 +809,12 @@
         type: 'grey'
         bump: true
       deadlines:
-      - text: 'Due: LinkParser'
-        link: false
+      - text: 'Due: HTMLCleaner'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
-        type: 'grey'
+      - text: 'Due: LinkParser'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
+        icon: 'far fa-file-code'
   labs:
     resources:
       - text: 'Project 3'
@@ -828,10 +824,12 @@
         link: false
         icon: 'far fa-project-diagram'
         type: 'grey'
-      - text: 'LinkParser'
-        link: false
+      - text: 'HTMLCleaner'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
-        type: 'grey'
+      - text: 'LinkParser'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
+        icon: 'far fa-file-code'
       - text: 'HeaderServer'
         link: false
         icon: 'far fa-file-code'

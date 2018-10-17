@@ -732,12 +732,6 @@
         icon: 'far fa-project-diagram'
         type: 'grey'
         bump: true
-      deadlines:
-      - date: false
-        text: 'Project 3 Checkpoint'
-        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
-        icon: 'far fa-project-diagram'
-        type: 'info'
     - date: 2018-11-01
       resources:
       - text: 'Sockets'
@@ -794,6 +788,11 @@
         icon: 'far fa-question-circle'
         type: 'grey'
       deadlines:
+      - date: false
+        text: 'Project 3 Checkpoint'
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+        icon: 'far fa-project-diagram'
+        type: 'info'        
       - text: 'Due: Regex Basics'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330545'
         icon: 'far fa-edit'
@@ -889,11 +888,6 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      deadlines:
-      - text: 'Project 4 Checkpoint'
-        link: false
-        icon: 'far fa-project-diagram'
-        type: 'info'
     - date: 2018-11-22
       resources:
       - text: 'Thanksgiving Break (No Class)'
@@ -914,6 +908,11 @@
         link: false
         icon: 'far fa-tasks'
         type: 'danger'
+      deadlines:
+      - text: 'Project 4 Checkpoint'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'info'
     - date: 2018-11-29
       resources:
       - text: 'Exam 2 Retake'

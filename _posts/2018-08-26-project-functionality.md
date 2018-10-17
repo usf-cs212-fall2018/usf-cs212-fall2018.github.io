@@ -3,6 +3,7 @@ title: Project Functionality
 navbar: Guides
 layout: default
 categories: project
+label: Updated
 ---
 
 Each project grade is split into two components: functionality and design. This guide details the process for verifying and grading the functionality of your projects. You should only go through this process if:
@@ -57,11 +58,11 @@ The functionality deadline schedule is below (assume all deadlines are at 11:59p
 
 | Grade | Project 1  | Project 2  | Project 3  | Project 4  | Description   |
 |------:|:----------:|:----------:|:----------:|:----------:|:--------------|
-|  110% | N/A        | &le; 10/02 | &le; 10/23 | &le; 11/13 | Extra Credit<sup><em>*See Below</em></sup> |
-|  100% | &le; 09/18 | &le; 10/09 | &le; 10/30 | &le; 11/20 | Checkpoint |
-|   90% | &le; 09/25 | &le; 10/16 | &le; 11/06 | &le; 11/27 | 1 Week Late |
-|   80% | &le; 10/02 | &le; 10/23 | &le; 11/13 | &le; 12/04 | 2 Weeks Late |
-|   70% | &le; 10/09 | &le; 10/30 | &le; 11/20 | &gt; 12/04 | 3 Weeks Late |
+|  110% | N/A        | &le; 10/02 | &le; 10/30 | &le; 11/20 | Extra Credit<sup><em>*See Below</em></sup> |
+|  100% | &le; 09/18 | &le; 10/09 | &le; 11/06 | &le; 11/27 | Checkpoint |
+|   90% | &le; 09/25 | &le; 10/16 | &le; 11/13 | &le; 12/04 | 1 Week Late |
+|   80% | &le; 10/02 | &le; 10/23 | &le; 11/20 | &gt; 12/04 | 2 Weeks Late |
+|   70% | &le; 10/09 | &le; 10/30 | &le; 11/27 |            | 3 Weeks Late |
 |    0% | &gt; 11/01 | &gt; 11/01 | &gt; 12/04 |            | Project Cutoff |
 
 Keep in mind the [project pass requirements]({{ "/syllabus.html" | relative_url }}#pass-requirements) for projects 1 and 2. All of your grades default to 0% if you do not pass the functionality of projects 1 and 2 by the project cutoff deadline on Thursday November 11, 2018. You must also pass the functionality of project 3 by the last day of class on Tuesday December 4, 2018.

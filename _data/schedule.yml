@@ -623,6 +623,13 @@
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Work%20Queues'
         icon: 'far fa-code'
         bump: true
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/rqFZJG9RxF1il35gi0hyFNsoW_y8XpoESxceAq-tf7-wIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/EiSxda54RS30EK8durWzYq6RxAQ6SaUXgoZS4GYO9RiwIumekTziMw'
       - text: 'PrimeFinder'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
         icon: 'far fa-file-code'

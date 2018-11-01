@@ -738,21 +738,29 @@
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330545'
         icon: 'far fa-edit'
         bump: true
-      - text: 'Project 4'
-        link: false
-        icon: 'far fa-project-diagram'
-        type: 'grey'
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/FSFN0K6sXWWmcKMAqtT7DW9qUUfuCpo7CsJwscSiR3qwIumekTziMw'
         bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/9XTLM0_UtmNGBvJP1EB0wOiBJmPdWyQWl4-hzJuLhBKwIumekTziMw'
     - date: 2018-11-01
       resources:
       - text: 'Sockets'
         link: false
         icon: 'far fa-question-circle'
-        type: 'grey'
       - text: 'LinkParser'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
         icon: 'far fa-file-code'
         bump: true
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/GfH7wyCwZn2togRQc9vEQbgQOSrR5RY6SClnPZDAuG6wIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: '#'
       deadlines:
       - text: 'Due: Web Basics'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330558'
@@ -775,10 +783,6 @@
       - text: 'Project 3'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
-      - text: 'Project 4'
-        link: false
-        icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'HTMLCleaner'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
@@ -798,6 +802,11 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'Project 4'
+        link: false
+        icon: 'far fa-project-diagram'
+        type: 'grey'
+        bump: true
       deadlines:
       - date: false
         text: 'Project 3 Checkpoint'

@@ -748,7 +748,7 @@
     - date: 2018-11-01
       resources:
       - text: 'Sockets'
-        link: false
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Sockets'
         icon: 'far fa-question-circle'
       - text: 'LinkParser'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'

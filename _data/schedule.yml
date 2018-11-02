@@ -760,7 +760,7 @@
         bump: true
       - text: 'CS 212-02 Recording'
         icon: 'far fa-video'
-        link: '#'
+        link: 'https://usfca.zoom.us/recording/share/ucQoESlZ4cqhj9u9MLdlH9XL_d3Ic4q0cWT9UckRgImwIumekTziMw'
       deadlines:
       - text: 'Due: Web Basics'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330558'

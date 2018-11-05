@@ -28,12 +28,62 @@ You should not begin working on extra features until the core functionality is w
 
 You must implement a minimum of 60 points worth of additional features. These features are broken into three categories: user tracking, database support, and extra functionality. You may choose any combination of features from these categories.
 
-- Pending
+  - **User Tracking:** The following features require you to use session tracking and/or cookies to store per-user information.
+
+    - **Search History (10 points):** Store a history of all search queries entered by a user, and allow the user to view and clear that history.
+
+    - **Visited Results (10 points):** Store a history of all search results visited by a user, and allow the user to view and clear that history. *Hint:* Modify the search result links to direct back to your search engine, so that you may first store that the link was visited and then redirect the user to the link selected.
+
+    - **Favorite Results (10 points):** Allow a user to save favorite search results, and allow the user to view and clear those favorites. *Hint:* Add a special link to each result that saves it as a favorite, but consider how to do this in the least disruptive way for the user.
+
+    - **Time Stamps (5 points):** Add timestamps to each item stored per user. For example, add timestamps to the user's search history. *You are expected to implement this for all related features to earn full credit. For example, if you implement search history and visited results, timestamps should be added to BOTH features for full credit.*
+
+    - **Private Search (5 points)**: Allow users to set an option that turns off all tracking of per-user data. *You are expected to implement this for all related features to earn full credit. For example, if you implement search history and visited results, tracking should be turned off for BOTH features for full credit.*
+
+    - **Partial Search Toggle (5 points)**: Allow the user to toggle on/off partial versus exact search.
+
+    - **Last Login Time (5 points)**: Track and display the last time the user logged into your search engine. If you are not implementing user accounts, track the last time the user visited your search engine instead.
+
+  - **Database Support:** The following features require you to connect your search engine to a database over JDBC.
+
+    - **User Accounts (20 points):** Allow users to register, login, and logout of an account with your search engine. You will need to securely store usernames and passwords in a database for this feature, and use some form of session tracking to determine if a user is logged in to the search engine.
+
+    - **User Data (15 points):** Store all per-user data persistently in a database instead of in cookies. *You are expected to implement this for all related features to earn full credit. For example, if you implement search history and visited results, data from BOTH should be stored in a database for full credit.*
+
+    - **Page Snippets (15 points):** During a crawl, store short snippets of every webpage found in a database and display these snippets whenever that page is returned as a result.
+
+    - **Change Password (10 points):** Allow users to change and/or reset their password.
+
+    - **Logged In Users (5 points):** Track and display the last 5 users to log into your search engine.
+
+  - **Extra Functionality**: The following features allow you to customize the functionality of your search engine.
+
+    - **New Crawl (10 points)**: Allow a user to enter a new seed URL to crawl. The results should be added to your inverted index (not replace the already existing results).
+
+    - **Suggested Queries (10 points)**: Provide users five suggested queries based on either the latest queries made by other users -or- the most popular queries made by other users.
+
+    - **Graceful Shutdown (10 points)**: Allow an administrator to trigger a *graceful* shutdown of your search engine without calling `System.exit()`. You will need to create a special servlet for this feature.
+
+    - **Index Browser (5 points)**: Allow users to browse your inverted index as an HTML page with clickable links to all of the indexed URLs.
+
+    - **Location Browser (5 points)**: Allow users to browse all of the locations and their word counts stored by your inverted index as an HTML page with clickable links to all of the indexed URLs.
+
+    - **StringTemplate (5 points)**: Use `StringTemplate` to generate your HTML instead of several `println()` statements. See for <http://www.cs.usfca.edu/~parrt/course/601/lectures/stringtemplate.html> more information on `StringTemplate`.
+
+    - **Search Statistics (5 points)**: Display the total number of results along with the time it took to calculate and fetch those results, and display the score and number of matches per search result listed.
+
+    - **Web Framework (5 points)**: Design a search engine using any popular CSS/style framework to create a consistent style for all the web pages. For example, consider using <a href="https://bulma.io/">Bulma</a>, <a href="https://getbootstrap.com/">Bootstrap (Twitter)</a>, <a href="https://purecss.io/">Pure.css</a>, <a href="https://material.io/develop/web/">Material (Google)</a>, <a href="https://semantic-ui.com/">Semantic UI</a>, and many more.
+
+    - **Search Brand (5 points)**: Design a search engine with a distinct brand and tagline. This includes creating a logo and tagline, and including it on all of the web pages.
 
 You may implement more extra features than necessary to receive extra credit on this project. You may earn up to 20 extra credit points for implementing extra additional features.
 
 <article class="message is-info">
   <div class="message-body"><i class="fas fa-info-circle"></i>&nbsp;<strong>Each grade category (e.g. homework, exams, projects) is capped to 100% total.</strong> This extra credit allows you to boost your project grade if you missed points due to late functionality, but does not change the percent that projects count towards your final score.</div>
+</article>
+
+<article class="message is-info">
+  <div class="message-body"><i class="fas fa-lightbulb"></i>&nbsp;<strong>Have a feature idea?</strong> You can propose an extra feature in a public post on Piazza. If approved, the instructor will post the number of points that feature will be worth on the final project.</div>
 </article>
 
 {% include section.html level="h2" name="Input" %}

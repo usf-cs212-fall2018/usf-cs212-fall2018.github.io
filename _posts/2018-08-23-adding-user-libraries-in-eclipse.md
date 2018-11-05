@@ -16,7 +16,7 @@ It is important that you name your user libraries the same as the instructor. Ot
 |---------|--------------|----------|-------|
 | [Apache OpenNLP](http://opennlp.apache.org/) | `opennlp-tools` | [Link](http://opennlp.apache.org/download.html) | You need to add the `opennlp-tools-1.9.0.jar` in Eclipse. You do not need the other JAR files. |
 | [Apache Log4j 2](https://logging.apache.org/log4j/2.x/) | `log4j2` | [Link](https://logging.apache.org/log4j/2.x/download.html) | You need to add the `log4j-api-2.x.x.jar` and `log4j-core-2.x.x.jar` JAR files in Eclipse. You do not need the other JAR files, but you can use the appropriate `*-javadoc.jar` files to access the Log4j2 JavaDoc within Eclipse. |
-| [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/) | `commons-lang3` | [Link](https://commons.apache.org/proper/commons-lang/download_lang.cgi) | Download the latest `commons-lang3-3.x.x.jar` file (listed under "Binaries"). |
+| [Apache Commons Text](http://commons.apache.org/proper/commons-text/) | `commons-text` | [Link](http://commons.apache.org/proper/commons-text/download_text.cgi) | Download the latest `commons-text-1.x.jar` file (listed under "Binaries"). |
 | [Eclipse Jetty](https://www.eclipse.org/jetty/) | `jetty` | [Link](https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/) | Look for the latest `jetty-all-9.x.x-uber.jar` JAR file. The directory is sorted lexicographically not numerically (e.g. by text not number), so version numbers like `9.4.12` will appear before version numbers like `4.4.9` even though it is a later version. |
 
 This list will be updated over time.

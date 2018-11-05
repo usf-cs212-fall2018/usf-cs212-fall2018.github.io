@@ -808,10 +808,13 @@
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Servlets'
         icon: 'far fa-code'
         bump: true
-      - text: 'Project 4'
+      - text: 'Project 4 Web Crawler'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
         bump: true
+      - text: 'Quiz: Jetty'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330533'
+        icon: 'far fa-edit'
       deadlines:
       - date: false
         text: 'Project 3 Checkpoint'
@@ -870,11 +873,15 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
-      - text: 'Final Project'
-        link: false
+      - text: 'Project 4 Search Engine'
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
         bump: true
+      deadlines:
+      - date: false
+        text: 'Due: Jetty'
+        link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330533'
+        icon: 'far fa-edit'
     - date: 2018-11-15
       resources:
       - text: 'SQL'

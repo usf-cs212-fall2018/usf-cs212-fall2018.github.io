@@ -36,22 +36,22 @@ You may implement more extra features than necessary to receive extra credit on 
   <div class="message-body"><i class="fas fa-info-circle"></i>&nbsp;<strong>Each grade category (e.g. homework, exams, projects) is capped to 100% total.</strong> This extra credit allows you to boost your project grade if you missed points due to late functionality, but does not change the percent that projects count towards your final score.</div>
 </article>
 
-{% include section.html level="h3" name="Input" %}
+{% include section.html level="h2" name="Input" %}
 
 Your main method must be placed in a class named `Driver`. The `Driver` class should accept the following **additional** command-line arguments:
 
-  - Pending
+  - `-port num` where `-port` indicates the next argument is the port the web server should use to accept socket connections. Use `8080` as the default value if it is not provided.
+
+      If the `-port` flag is provided, your code should **enable multithreading** with the default number of worker threads even if the `-threads` flag is not provided.
 
 The command-line flag/value pairs may be provided in any order, and the order provided is not the same as the order you should perform the operations (i.e. always build the index before performing search, even if the flags are provided in the other order).
 
-Your code should support all of the command-line arguments from the [previous project]({% post_url 2018-10-08-project-3 %}) as well.
+Your code should support all of the command-line arguments from the [previous project]({% post_url 2018-11-04-project-4a-web-crawler %}) as well.
 
-{% include section.html level="h3" name="Output" %}
+{% include section.html level="h2" name="Output" %}
 
-The JSON output of your inverted index and search results should be the same from the [previous project]({% post_url 2018-10-08-project-3 %}). As before, you should **only generate output files if the necessary flags are provided**.
+The majority of the output for this project will be in the form of HTTP responses to a browser. Only output the inverted index or search results to a file if the necessary flags are provided.
 
-Pending
+{% include section.html level="h2" name="Testing" %}
 
-{% include section.html level="h3" name="Testing" %}
-
-Pending
+No tests will be provided for this project. Instead, you will demonstrate your search engine functionality to the instructor during your final code review appointment during finals week.

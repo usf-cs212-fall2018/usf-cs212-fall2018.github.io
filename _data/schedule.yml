@@ -798,10 +798,16 @@
   lectures:
     - date: 2018-11-06
       resources:
+      - text: 'Dynamic Webpages - Introduction'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
+        icon: 'far fa-chalkboard-teacher'
+      - text: 'Dynamic Webpages - Servlets'
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
+        icon: 'far fa-chalkboard-teacher'
       - text: 'Servlets'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Servlets'
+        icon: 'far fa-code'
+        bump: true
       - text: 'Project 4'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'

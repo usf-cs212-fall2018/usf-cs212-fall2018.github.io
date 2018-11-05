@@ -803,9 +803,8 @@
         icon: 'far fa-question-circle'
         type: 'grey'
       - text: 'Project 4'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
         bump: true
       deadlines:
       - date: false
@@ -840,9 +839,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
       - text: 'Project 4'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'HTMLCleaner'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
         icon: 'far fa-file-code'
@@ -888,9 +886,8 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
         icon: 'far fa-project-diagram'
       - text: 'Project 4'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
-        type: 'grey'
       - text: 'HeaderServer'
         link: false
         icon: 'far fa-file-code'
@@ -930,7 +927,7 @@
         type: 'danger'
       deadlines:
       - text: 'Project 4 Checkpoint'
-        link: false
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
         type: 'info'
     - date: 2018-11-29

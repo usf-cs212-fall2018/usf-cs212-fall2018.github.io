@@ -873,6 +873,10 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'SQL Database Accounts'
+        link: 'https://usfca.instructure.com/courses/1579367/pages/database-accounts'
+        icon: 'far fa-database'
+        type: 'success'
       - text: 'Project 4 Search Engine'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'

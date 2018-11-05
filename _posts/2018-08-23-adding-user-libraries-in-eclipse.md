@@ -3,6 +3,7 @@ layout: default
 navbar: Guides
 title: Adding User Libraries in Eclipse
 categories: general
+label: Updated!
 ---
 
 There is a step-by-step walkthrough on how to add user libraries in Eclipse at:

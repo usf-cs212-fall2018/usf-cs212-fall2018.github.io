@@ -918,6 +918,9 @@
   lectures:
     - date: 2018-11-20
       resources:
+      - text: 'Final Code Review Signup'
+        link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+        icon: 'far fa-info-circle'
       - text: 'Optional Topics'
         link: false
         icon: 'far fa-question-circle'

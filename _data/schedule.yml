@@ -821,7 +821,7 @@
         bump: true
       - text: 'CS 212-02 Recording'
         icon: 'far fa-video'
-        link: 'https://usfca.zoom.us/recording/share/Hzxhqppdk8_e_U6tu47d8GviEpmsmrIAT8WinCRTcmCwIumekTziMw'        
+        link: 'https://usfca.zoom.us/recording/share/Hzxhqppdk8_e_U6tu47d8GviEpmsmrIAT8WinCRTcmCwIumekTziMw'
       deadlines:
       - date: false
         text: 'Project 3 Checkpoint'
@@ -834,9 +834,8 @@
     - date: 2018-11-08
       resources:
       - text: 'Sessions'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Sessions'
+        icon: 'far fa-code'
       - text: 'HeaderServer'
         link: false
         icon: 'far fa-file-code'

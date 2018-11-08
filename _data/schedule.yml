@@ -837,7 +837,7 @@
         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Sessions'
         icon: 'far fa-code'
       - text: 'HTMLFetcher'
-        link: 'https://classroom.github.com/a/HzUNsHA0'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
         icon: 'far fa-file-code'
         bump: true
       deadlines:
@@ -862,7 +862,7 @@
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
         icon: 'far fa-file-code'
       - text: 'HTMLFetcher'
-        link: 'https://classroom.github.com/a/HzUNsHA0'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
         icon: 'far fa-file-code'
     deadlines:
       - date: false
@@ -894,7 +894,7 @@
         type: 'grey'
       deadlines:
       - text: 'Due: HTMLFetcher'
-        link: 'https://classroom.github.com/a/HzUNsHA0'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
         icon: 'far fa-file-code'
   labs:
     resources:
@@ -905,7 +905,7 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
       - text: 'HTMLFetcher'
-        link: 'https://classroom.github.com/a/HzUNsHA0'
+        link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
         icon: 'far fa-file-code'
     deadlines:
       - date: false

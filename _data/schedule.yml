@@ -840,6 +840,13 @@
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
         icon: 'far fa-file-code'
         bump: true
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/9EBLtDWnnvME8ASgvi5UpwHO38z2F3cOUich5ZX0gPawIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/LTPTRwBCRjJ7znqafXVAEemENEprjp3XJUI43RFX_KmwIumekTziMw'
       deadlines:
       - text: 'Due: HTMLCleaner'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'

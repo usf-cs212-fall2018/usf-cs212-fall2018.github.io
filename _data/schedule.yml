@@ -888,7 +888,7 @@
         icon: 'far fa-chalkboard-teacher'
       - text: 'SQL Intro Demo'
         link: 'https://github.com/usf-cs212-fall2018/lectures/wiki/SQL-Intro-Demo'
-        icon: 'fa-atlas'
+        icon: 'far fa-atlas'
         bump: true
       - text: 'SQL Database Accounts'
         link: 'https://usfca.instructure.com/courses/1579367/pages/database-accounts'

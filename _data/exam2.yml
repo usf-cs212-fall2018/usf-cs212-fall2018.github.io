@@ -1,0 +1,134 @@
+- week: 8
+  topics:
+    - name: 'Multithreading Basics'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Basics'
+    - name: 'Synchronization'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Synchronization'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/T52n4vJUjoHaJErZnStTdTbLW7HgMm0yntFb4qvZ41CwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/KuQZINxRYjUqHO7aTJhogTESLii9Mif9DlXVbyNQSLOwIumekTziMw'
+    section2:
+      tues: 'https://usfca.zoom.us/recording/share/8Gn9cY8Q9IavcZfhhGtgi2NQdpmLSrcqA_HSjHp8X5qwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/j-JIj-MfFPKFVDohMPLveIbNQN8ibHXwd_8NSxOHhw2wIumekTziMw'
+  slides:
+    - name: 'Multithreading - Introduction'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbEhHOTFSODFZcDg'
+    - name: 'Multithreading - Synchronization'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+    - name: 'Multithreading - Thread Liveness'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE'
+    - name: 'Multithreading - Synchronization'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+    - name: 'Multithreading - Custom Locks'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg'
+  quizzes:
+    - name: 'Pending'
+      link: '#'
+  homework:
+    - name: 'ReadWriteLock'
+      link: 'https://github.com/usf-cs212-fall2018/template-readwritelock'
+- week: 9
+  topics:
+    - name: 'Work Queues'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Work%20Queues'
+  youtube:
+    - text: 'Multithreading Demo'
+      link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF1gz79T_7SaqTRzcWKAV7CQ'
+  videos:
+    section1:
+      thur: 'https://usfca.zoom.us/recording/share/rqFZJG9RxF1il35gi0hyFNsoW_y8XpoESxceAq-tf7-wIumekTziMw'
+    section2:
+      thur: 'https://usfca.zoom.us/recording/share/EiSxda54RS30EK8durWzYq6RxAQ6SaUXgoZS4GYO9RiwIumekTziMw'
+  slides:
+    - name: 'The Volatile Keyword'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU'
+    - name: 'Thread Pools and Work Queues'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
+  quizzes:
+    - name: 'Pending'
+      link: '#'
+  homework:
+    - name: 'PrimeFinder'
+      link: 'https://github.com/usf-cs212-fall2018/template-primefinder'
+- week: 10
+  topics:
+    - name: 'Regular Expressions'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Regular%20Expressions'
+  youtube:
+    - text: 'Regular Expressions'
+      link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
+  quizzes:
+    - name: 'Pending'
+      link: '#'
+  homework:
+    - name: 'HTMLCleaner'
+      link: 'https://github.com/usf-cs212-fall2018/template-htmlcleaner'
+- week: 11
+  topics:
+    - name: 'Sockets'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Sockets'
+  youtube:
+    - text: 'World Wide Web'
+      link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF2VBZ1DNto-e6lG_zggopxz'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/FSFN0K6sXWWmcKMAqtT7DW9qUUfuCpo7CsJwscSiR3qwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/GfH7wyCwZn2togRQc9vEQbgQOSrR5RY6SClnPZDAuG6wIumekTziMw'
+    section2:
+      tues: 'https://usfca.zoom.us/recording/share/9XTLM0_UtmNGBvJP1EB0wOiBJmPdWyQWl4-hzJuLhBKwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/ucQoESlZ4cqhj9u9MLdlH9XL_d3Ic4q0cWT9UckRgImwIumekTziMw'
+  quizzes:
+    - name: 'Pending'
+      link: '#'
+  homework:
+    - name: 'LinkParser'
+      link: 'https://github.com/usf-cs212-fall2018/template-linkparser'
+- week: 12
+  topics:
+    - name: 'Servlets'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Servlets'
+    - name: 'Sockets'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Sockets'
+  youtube:
+    - text: 'Context Server'
+      link: 'https://youtu.be/kJDmEom17-Q'
+    - text: 'Adventure Game'
+      link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF1CKRtwPBPli05W51srMZpH'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/heElCEGOKuKLIfX4UUlkk4qCZfie27WxqRB-dvQCElWwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/9EBLtDWnnvME8ASgvi5UpwHO38z2F3cOUich5ZX0gPawIumekTziMw'
+    section2:
+      tues: 'https://usfca.zoom.us/recording/share/Hzxhqppdk8_e_U6tu47d8GviEpmsmrIAT8WinCRTcmCwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/LTPTRwBCRjJ7znqafXVAEemENEprjp3XJUI43RFX_KmwIumekTziMw'
+  slides:
+    - name: 'Dynamic Webpages - Introduction'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
+    - name: 'Dynamic Webpages - Servlets'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
+  quizzes:
+    - name: 'Pending'
+      link: '#'
+  homework:
+    - name: 'HTMLFetcher'
+      link: 'https://github.com/usf-cs212-fall2018/template-htmlfetcher'
+- week: 13
+  topics:
+    - name: 'SQL Intro Demo'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/wiki/SQL-Intro-Demo'
+    - name: 'SQL Faculty Demo'
+      link: 'https://github.com/usf-cs212-fall2018/lectures/wiki/SQL-Faculty-Demo'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/b1bjRLCGSDVFBUjq2I0-Few53ZPbC42lHkvz0wPZuLCwIumekTziMw'
+    section2:
+      tues: 'https://usfca.zoom.us/recording/share/Qb7Xo6b75etIf5ZBt5ax9HkjRsNvfzjUaeTMHpFbUbiwIumekTziMw'
+  slides:
+    - name: 'Relational Databases'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8'
+    - name: 'Structured Query Language (SQL)'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE'
+  quizzes:
+    - name: 'Pending'
+      link: '#'

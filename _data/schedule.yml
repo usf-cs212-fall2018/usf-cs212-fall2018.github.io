@@ -928,6 +928,10 @@
       - text: 'SQL Faculty Demo'
         link: 'https://github.com/usf-cs212-fall2018/lectures/wiki/SQL-Faculty-Demo'
         icon: 'far fa-atlas'
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/qv3VfH48htsvhJ2LjYKpQ9BIIUiOYqwDHqzvVFboJn2wIumekTziMw'
+        bump: true
       deadlines:
       - text: 'Due: HTMLFetcher'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
@@ -959,10 +963,10 @@
         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
         bump: true
-      - text: 'Optional Topics'
-        link: false
-        icon: 'far fa-question-circle'
-        type: 'grey'
+      - text: 'Exam 2 Review'
+        link: '/guides/exam-2.html'
+        icon: 'far fa-atlas'
+        bump: true
       deadlines:
       - text: 'Due: SQL Grouping'
         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330520'

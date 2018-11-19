@@ -18,6 +18,7 @@
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
     - name: 'Multithreading - Thread Liveness'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE'
+      drop: true
     - name: 'Multithreading - Synchronization'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
     - name: 'Multithreading - Custom Locks'
@@ -45,6 +46,7 @@
   slides:
     - name: 'The Volatile Keyword'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU'
+      drop: true
     - name: 'Thread Pools and Work Queues'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
   quizzes:
@@ -99,6 +101,7 @@
       link: 'https://youtu.be/kJDmEom17-Q'
     - text: 'Adventure Game'
       link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF1CKRtwPBPli05W51srMZpH'
+      drop: true
   videos:
     section1:
       tues: 'https://usfca.zoom.us/recording/share/heElCEGOKuKLIfX4UUlkk4qCZfie27WxqRB-dvQCElWwIumekTziMw'

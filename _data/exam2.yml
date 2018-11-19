@@ -23,8 +23,10 @@
     - name: 'Multithreading - Custom Locks'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg'
   quizzes:
-    - name: 'Pending'
-      link: '#'
+    - name: 'Thread Basics'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331949'
+    - name: 'Synchronization'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331950'
   homework:
     - name: 'ReadWriteLock'
       link: 'https://github.com/usf-cs212-fall2018/template-readwritelock'
@@ -46,8 +48,8 @@
     - name: 'Thread Pools and Work Queues'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
   quizzes:
-    - name: 'Pending'
-      link: '#'
+    - name: 'Work Queues'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331948'
   homework:
     - name: 'PrimeFinder'
       link: 'https://github.com/usf-cs212-fall2018/template-primefinder'
@@ -59,8 +61,8 @@
     - text: 'Regular Expressions'
       link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
   quizzes:
-    - name: 'Pending'
-      link: '#'
+    - name: 'RegEx Basics'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331944'
   homework:
     - name: 'HTMLCleaner'
       link: 'https://github.com/usf-cs212-fall2018/template-htmlcleaner'
@@ -79,8 +81,10 @@
       tues: 'https://usfca.zoom.us/recording/share/9XTLM0_UtmNGBvJP1EB0wOiBJmPdWyQWl4-hzJuLhBKwIumekTziMw'
       thur: 'https://usfca.zoom.us/recording/share/ucQoESlZ4cqhj9u9MLdlH9XL_d3Ic4q0cWT9UckRgImwIumekTziMw'
   quizzes:
-    - name: 'Pending'
-      link: '#'
+    - name: 'Web Basics'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331946'
+    - name: 'HTTP'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331947'
   homework:
     - name: 'LinkParser'
       link: 'https://github.com/usf-cs212-fall2018/template-linkparser'
@@ -108,8 +112,8 @@
     - name: 'Dynamic Webpages - Servlets'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
   quizzes:
-    - name: 'Pending'
-      link: '#'
+    - name: 'Jetty'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331945'
   homework:
     - name: 'HTMLFetcher'
       link: 'https://github.com/usf-cs212-fall2018/template-htmlfetcher'
@@ -122,6 +126,7 @@
   videos:
     section1:
       tues: 'https://usfca.zoom.us/recording/share/b1bjRLCGSDVFBUjq2I0-Few53ZPbC42lHkvz0wPZuLCwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/qv3VfH48htsvhJ2LjYKpQ9BIIUiOYqwDHqzvVFboJn2wIumekTziMw'
     section2:
       tues: 'https://usfca.zoom.us/recording/share/Qb7Xo6b75etIf5ZBt5ax9HkjRsNvfzjUaeTMHpFbUbiwIumekTziMw'
   slides:
@@ -130,5 +135,7 @@
     - name: 'Structured Query Language (SQL)'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE'
   quizzes:
-    - name: 'Pending'
-      link: '#'
+    - name: 'SQL Joins'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331943'
+    - name: 'SQL Grouping'
+      link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331951'

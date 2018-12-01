@@ -1019,6 +1019,12 @@
         link: false
         icon: 'far fa-question-circle'
         type: 'grey'
+      - text: 'Course Feedback (Informal)'
+        link: 'https://goo.gl/forms/QWkat66YF1LVfeKo2'
+        icon: 'fab fa-google-drive'
+        bump: true
+      - text: 'Course Evaluation (Official)'
+        icon: 'far fa-edit'
       deadlines:
       - date: false
         text: 'Last Day of Class'

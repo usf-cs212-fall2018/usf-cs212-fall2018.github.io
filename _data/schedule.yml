@@ -1025,6 +1025,7 @@
         bump: true
       - text: 'Course Evaluation (Official)'
         icon: 'far fa-edit'
+        link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
       deadlines:
       - date: false
         text: 'Last Day of Class'

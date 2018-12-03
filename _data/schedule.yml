@@ -1018,9 +1018,13 @@
       - text: 'Java Database Connectivity (JDBC)'
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU'
         icon: 'far fa-chalkboard-teacher'
+      - text: 'Jetty and JDBC'
+        link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Jetty%20and%20JDBC'
+        icon: 'far fa-code'
       - text: 'Login Demo (Old)'
         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF3iA7aZw7ueSWIgEahClJPb'
         icon: 'fab fa-youtube'
+        bump: true
       - text: 'Course Feedback (Informal)'
         link: 'https://goo.gl/forms/QWkat66YF1LVfeKo2'
         icon: 'fab fa-google-drive'
@@ -1028,12 +1032,24 @@
       - text: 'Course Evaluation (Official)'
         icon: 'far fa-edit'
         link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
+      - text: 'Final Code Review Signup'
+        link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+        icon: 'far fa-info-circle'
+        bump: true
+      - text: 'Project 4 Search Engine'
+        link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
+        icon: 'far fa-project-diagram'
       deadlines:
       - date: false
         text: 'Last Day of Class'
         link: false
         icon: 'far fa-calendar-alt'
         type: 'grey'
+      - date: false
+        text: 'Code Review Issue Cutoff'
+        link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+        icon: 'far fa-calendar-check'
+        type: 'danger'
       - date: false
         text: 'Due: Piazza Participation 2'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6786336'
@@ -1046,15 +1062,21 @@
         type: 'grey'
       deadlines:
       - date: 2018-12-05
-        text: 'Review Cutoff'
-        link: false
+        text: 'Code Review Cutoff'
+        link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
         icon: 'far fa-calendar-check'
         type: 'danger'
-      - date: 2018-12-07
+      - date: 2018-12-06
+        text: 'Verification Issue Cutoff'
+        link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+        icon: 'far fa-calendar-check'
+        type: 'danger'
+      - date: 2018-12-06
         text: 'CS Night'
-        link: false
+        link: 'http://usfblogs.usfca.edu/usfcs/2018/11/16/17th-annual-computer-science-night/'
         icon: 'far fa-calendar-alt'
-        type: 'grey'
+        type: 'primary'
+        bump: true
       - date: 2018-12-07
         text: 'Due: CS Event Participation 2'
         link: 'https://usfca.instructure.com/courses/1579367/assignments/6790463'

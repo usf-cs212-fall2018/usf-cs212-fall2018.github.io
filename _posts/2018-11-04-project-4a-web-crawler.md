@@ -3,7 +3,6 @@ title: Project 4a Web Crawler
 navbar: Guides
 layout: default
 categories: writeups
-label: New!
 ---
 
 For this project, you will extend your [previous project]({% post_url 2018-10-08-project-3 %}) to create a fully functional search engine. This project is split into two main components: (1) a [multithreaded web crawler]({% post_url 2018-11-04-project-4a-web-crawler %}) using a work queue to build the index from a seed URL, and (2) a [search engine web interface]({% post_url 2018-11-04-project-4b-search-engine %}) using [embedded Jetty](https://www.eclipse.org/jetty/) and servlets to search that index.

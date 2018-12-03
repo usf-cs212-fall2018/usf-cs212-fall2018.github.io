@@ -12,6 +12,10 @@ For this project, you will extend your [previous project]({% post_url 2018-10-08
 
 {% include section.html level="h2" name="Functionality" %}
 
+<div class="notification is-warning">
+  <strong><i class="fas fa-exclamation-square"></i> New:</strong> You will lose 5 points if you do not protect against XSS attacks and another 5 points if you do not protect against SQL injection attacks in your servlets. This means ANYTIME you get data from either the HTTP request or the database, you must escape it before including it in your HTML page. And ANYTIME you store data in your database you must use prepared statements.
+</div>
+
 The functionality for this project is broken into 2 parts: core functionality and extra features. You must complete the core functionality _before_ attempting extra features.
 
 {% include section.html level="h3" name="Search Engine Core Functionality" %}
@@ -25,6 +29,10 @@ You must implement the following core features using embedded Jetty and servlets
 You should not begin working on extra features until the core functionality is working properly.
 
 {% include section.html level="h3" name="Search Engine Extra Functionality" %}
+
+<div class="notification is-info">
+  <strong><i class="fas fa-info-square"></i> New:</strong> The database features have been updated to reflect that we did not get to the user login examples this semester.
+</div>
 
 You must implement a minimum of 70 points worth of additional features. These features are broken into three categories: user tracking, database support, and extra functionality. You may choose any combination of features from these categories.
 
@@ -46,15 +54,23 @@ You must implement a minimum of 70 points worth of additional features. These fe
 
   - **Database Support:** The following features require you to connect your search engine to a database over JDBC.
 
-    - **User Accounts (20 points):** Allow users to register, login, and logout of an account with your search engine. You will need to securely store usernames and passwords in a database for this feature, and use some form of session tracking to determine if a user is logged in to the search engine.
+    - ~~**User Accounts (20 points):** Allow users to register, login, and logout of an account with your search engine. You will need to securely store usernames and passwords in a database for this feature, and use some form of session tracking to determine if a user is logged in to the search engine.~~
 
-    - **User Data (15 points):** Store all per-user data persistently in a database instead of in cookies. *You are expected to implement this for all related features to earn full credit. For example, if you implement search history and visited results, data from BOTH should be stored in a database for full credit.*
+    - ~~**User Data (15 points):** Store all per-user data persistently in a database instead of in cookies. *You are expected to implement this for all related features to earn full credit. For example, if you implement search history and visited results, data from BOTH should be stored in a database for full credit.*~~
+
+    - ~~**Change Password (10 points):** Allow users to change and/or reset their password.~~
+
+    - ~~**Logged In Users (5 points):** Track and display the last 5 users to log into your search engine.~~
 
     - **Page Snippets (15 points):** During a crawl, store short snippets of every webpage found in a database and display these snippets whenever that page is returned as a result.
 
-    - **Change Password (10 points):** Allow users to change and/or reset their password.
+    - <span class="tag is-info">New</span> **Last Crawled (5 points):** This feature requires you implement the "Page Snippets" feature. When crawling pages and storing page snippets, also store a timestamp of when that page was crawled in the database. Whenever that page and snippet is returned as a result, display the crawled date as well.
 
-    - **Logged In Users (5 points):** Track and display the last 5 users to log into your search engine.
+    - <span class="tag is-info">New</span> **Popular Queries, Database Edition (15-20 points):** Every time a search is conducted, parse/clean/optimize that query and store the number of times that query has been searched for in a database. Allow users to see the top 5 most popular queries on your search page. The base functionality of this feature is worth 15 points. You can earn an additional 5 points if you make those queries clickable such that when clicked, the results for that query is displayed (i.e. clicking a popular query conducts a search for that query). _Note: You cannot implement both this and the non-database "Suggested Queries" feature._
+
+    - <span class="tag is-info">New</span> **Most Visited and/or Favorited Results (10-15 points):** This feature requires you implement at least one of the "Visited Results" or "Favorite Results" features. When storing the visit or favorite in the user session, also increment the number of times that page has been visited or favorited in a database. When displaying the user's visit or favorite history, also show the top 5 visited or favorited pages overall from the database. If you implement this for just one feature (visited -or- favorited results, but not both) it is worth 10 points. If you implement this for both the visited and favorited results features, it is worth 15 points.
+
+    - <span class="tag is-info">New</span> **Reset Database (5 points):** This feature requires you implement at least one database feature. Allow users with an administrator password to clear all the tables in the database associated with your search engine.
 
   - **Extra Functionality**: The following features allow you to customize the functionality of your search engine.
 

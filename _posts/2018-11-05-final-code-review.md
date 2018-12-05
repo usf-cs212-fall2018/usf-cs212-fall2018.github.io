@@ -6,6 +6,10 @@ categories: project
 label: New!
 ---
 
+<article class="message is-info">
+  <div class="message-body"><i class="far fa-info-circle"></i>&nbsp;See the <a href="https://piazza.com/class/jkvhju45usq7by?cid=816">Piazza post</a> for an update on what you can work on after the cutoff deadlines.</div>
+</article>
+
 Here are some details regarding how your final project code reviews will be handled.
 
 {% include section.html level="h3" name="Final Code Review Appointments" %}

@@ -1039,6 +1039,13 @@
       - text: 'Project 4 Search Engine'
         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
         icon: 'far fa-project-diagram'
+      - text: 'CS 212-01 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/lIfieBpTDbo2sC-1SiQmzwhGRKbBmq3762_M27sqszmwIumekTziMw'
+        bump: true
+      - text: 'CS 212-02 Recording'
+        icon: 'far fa-video'
+        link: 'https://usfca.zoom.us/recording/share/U3B6iM3fSrO0ucJqitSB-t3fJsSYttzq6VErvRy6x6CwIumekTziMw'
       deadlines:
       - date: false
         text: 'Last Day of Class'
